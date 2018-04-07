@@ -8,5 +8,5 @@ Company website. Offering SEO, content, webdevelopment, graphic design and other
 <b>Created with:</b> Bootstrap 4, Sass, jQuery and Laravel.
 <br/>
 <b>Gained Knowledge:</b> Sass, Sketch, refreshing JavaScript and jQuery
-<br/>
-Everything is created by Kasper Kloster (code, text, graphic etc.) 
+<br/><br/>
+<small><i>Everything is created by Kasper Kloster (code, text, graphic etc.)</i></small>
