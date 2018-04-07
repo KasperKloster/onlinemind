@@ -2,6 +2,6 @@
 
 <b>About Onlinemind</b><br/>
 Company website. Offering SEO, content, webdevelopment, graphic design and other help with your website.
-Language: Danish.
+<b>Language:</b> Danish.
 <br/>
-Created with: Bootstrap, Sass, jQuery and Laravel.
+<b>Created with:</b> Bootstrap 4, Sass, jQuery and Laravel.

@@ -1,0 +1,209 @@
+// VARIABLES
+$lightBlue:		#F2F7FF
+$purple:		#5E5499
+$purpleHover:	#3F357D
+$dark:			#404041
+$white:			#fff
+$blueCta:		#709CE1
+$blueCtaHover:	#638AC7
+
+
+$sectionPadding: 80px
+
+// STYLES
+
+/* Fonts */
+h1, h2, h3, h4, h5
+	font-family: 'Work Sans', sans-serif
+	font-weight: 700
+p
+	font-family: 'Roboto', sans-serif
+	font-weight: 400
+
+/* Menu */
+a
+	color: $purple
+	font-weight: 700
+
+a:hover, a:focus
+	color: $purpleHover
+
+.navbar a
+	color: $dark	
+
+.navbar a:hover, a:focus
+	list-style-type: none
+	text-decoration: none
+	color: $purple
+
+#menu-btn a:hover, a:focus
+	color: $purpleHover
+
+.hover-circle
+	width: 30px
+	height: 30px
+	border: 2px solid $purple
+	display: inline-block
+	text-align: center
+
+	border-top-right-radius: 200px
+	border-bottom-right-radius: 200px
+	border-bottom-left-radius: 200px
+	border-top-left-radius: 200px
+	border-left-color: transparent
+	transform: rotate(45deg)
+
+.hover-inner-circle
+	transform: rotate(-45deg)
+
+/**/
+
+/* The Overlay (background) */
+.overlay 
+	height: 100%
+	width: 0
+	position: fixed
+	z-index: 2000
+	left: 0
+	top: 0
+	background-color: rgb(0,0,0)
+	background-color: rgba(0,0,0, 0.9)
+	overflow-x: hidden
+	transition: .5s
+
+/* Position the content inside the overlay */
+.overlay-content
+	// position: relative
+	// top: 25%
+	// width: 100%
+	text-align: center
+	margin-top: 100px
+
+/* The navigation links inside the overlay */
+.overlay a
+	padding: 8px
+	text-decoration: none
+	font-size: 35px
+	color: $white
+	display: block
+	transition: all .3s ease
+
+.nav-click
+	animation: navClick .8s ease
+
+@keyframes navClick
+	to
+		transform: scaleY(0)
+
+
+.nav-item:hover, .nav-item:focus
+	font-size: 45px
+	color: $dark
+	background-color: $lightBlue
+	font-weight: bold
+	transition: 0.3s
+	cursor: pointer
+	width: 100%
+
+/* Position the close button */
+.overlay #closebtn
+	float: right
+	margin-top: 20px
+	font-size: 16px
+	color: $purple
+	cursor: pointer
+
+/** JUMBOTRONS **/
+
+=jumbotronHeader()
+	padding-top: 150px
+	background:
+		color: $lightBlue
+	margin-bottom: 0px
+	border-bottom: 1px solid #C3C3C3
+
+
+=jumbotronHeaderH1()
+	text-transform: uppercase
+	font-weight: 700
+	border-bottom: 4px solid $purple
+
+.jumbotron-header
+	+jumbotronHeader()
+
+.jumbotron-header h1
+	+jumbotronHeaderH1()
+
+// Front Page
+.jumbotron-header-front h1
+	+jumbotronHeaderH1()	
+	width: 65%
+
+/**	SECTIONS **/
+
+.white-section
+	background-color: $white
+	padding: $sectionPadding
+
+.white-section h2
+	text-decoration: underline
+	-webkit-text-decoration-color: $purple
+	text-decoration-color: $purple
+
+.lightblue-section
+	background-color: $lightBlue	
+	padding: $sectionPadding
+
+.lightblue-section h2
+	text-decoration: underline
+	-webkit-text-decoration-color: $purple
+	text-decoration-color: $purple
+
+.divider-section
+	background:
+		color: #FAFBFC
+	padding: 50px
+
+.divider-section-icon
+	display: inline-block
+	padding-top: 20px
+	width: 80px
+	height: 80px
+	-webkit-border-radius: 50%
+	-moz-border-radius: 50%
+	border-radius: 50%
+	color: $dark
+	border: 1px solid $purpleHover
+
+.divider-section-icon:hover
+	background-color: $purpleHover
+	color: $white
+
+/** PAGES **/
+// Front Page
+.middle-section-text
+	margin-top: 50px
+
+// landingpage
+.landing-sidebar
+	background:
+		color: #F6F6F6
+	border-left: 2px solid #C3C3C3
+
+/** BUTTONS **/
+.btn-cta
+	background-color: $blueCta
+	color: $white
+
+.btn-cta:hover
+	background-color: $blueCtaHover
+	color: white
+
+/** FOOTER **/
+#footer
+	background-color: $dark
+	padding: 10px
+
+#footer address
+	color: $lightBlue
+	font-size: 12px

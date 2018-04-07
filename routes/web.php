@@ -11,8 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('front');
-});
+Route::get('/', 'PagesController@pageFront')->name('front');
+
+// Route::get('/', function () {
+//     return view('front');
+// });
 
 //Route::get('/', 'PagesController@pageIndex')->name('welcome');
