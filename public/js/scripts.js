@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	
-
 	// Open Menu
 	$('#menu-btn').on('click', function() {
 		$('#main-nav').css("width", "100%");

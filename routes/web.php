@@ -13,6 +13,7 @@
 
 Route::get('/', 'PagesController@pageFront')->name('front');
 
+Route::get('seo', 'PagesController@pageSEO')->name('seo');
 // Route::get('/', function () {
 //     return view('front');
 // });

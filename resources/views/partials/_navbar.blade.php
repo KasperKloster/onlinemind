@@ -10,10 +10,10 @@
 
         <div class="overlay-content">
           <nav>
-            <a class="nav-item" href="landingpage.html">About</a>
-            <a class="nav-item" href="contact.html">Contact</a>
-            <a class="nav-item" href="seo.html">SEO</a>
-            <a class="nav-item" href="webudvikling.html">Webudvikling</a>
+            <a class="nav-item" href="{{ route('seo') }}">SEO</a>
+            <a class="nav-item" href="#">About</a>
+            <a class="nav-item" href="#">Contact</a>
+            <a class="nav-item" href="#">Webudvikling</a>
             <a class="nav-item" href="#">Contact</a>
           </nav>
         </div>
