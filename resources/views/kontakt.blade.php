@@ -50,11 +50,24 @@
                     <div class="col-md-8 mx-auto text-center">
                       <h3>Brug for Hjælp?</h3>
                       <p>Kontakt mig her og jeg kontakter dig hurtigst muligt</p>
-                        <form>
+                        
+                        @if (Session::has('success'))
+                          <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <h4 class="alert-heading">Din besked blev sendt!</h4>
+                            <hr/>
+                            <p>{{ Session::get('success') }}</p>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                        @endif
+
+                        <form action="{{ url('kontakt') }}" method="POST">
+                          {{ csrf_field() }}
                           <div class="form-group">
                             <div class="form-row">
                               <div class="col">
-                                <input type="text" class="form-control" placeholder="Navn">
+                                <input type="text" class="form-control" name="name" placeholder="Navn">
                               </div>
                             </div>
                           </div>
@@ -62,21 +75,22 @@
                           <div class="form-group">
                             <div class="form-row">
                               <div class="col">
-                                <input type="email" class="form-control" placeholder="E-mail">
+                                <input type="email" class="form-control" name="email" placeholder="E-mail">
                               </div>
 
                               <div class="col">
-                                <input type="tel" class="form-control" placeholder="Telefon">
+                                <input type="tel" class="form-control" name="phone" placeholder="Telefon">
                               </div>
                             </div>
                           </div>
 
                           <div class="form-group">
-                            <textarea class="form-control" rows="3" placeholder="Besked"></textarea>
+                            <textarea class="form-control" rows="3" name="message" placeholder="Besked"></textarea>
                           </div>
 
                           <button type="submit" class="btn btn-block btn-cta">Send</button>
                         </form>
+
                     </div> <!-- /. col-md-8 mx-auto -->
                   </div> <!-- /. row -->
                 </div> <!-- /. container pt-5 -->

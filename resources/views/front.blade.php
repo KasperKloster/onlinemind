@@ -15,7 +15,7 @@
             <div class="row">
               
               <div class="col-md-6">
-                <h1>Jeg hjælper dig med<br/>SEO,<br/>Webudvikling<br/> &amp; <br/>Grafisk Design</h1>
+                <h1>SEO<br/>Webudvikling<br/> &amp; <br/>Grafisk Design</h1>
                 <p class="lead pt-3">
                   Lad mig være din hjælpende hånd.
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -142,8 +142,8 @@
                 <h3>Tekstforfatning</h3>
                 <p class="text-left">
                 Tekster er uden tvivl vigtigt for enhver side<br/>
-                Og det kan være en kedelig langtrukken opgave, at skulle igennem.<br/>
-                Lad mig skrive dem for dig.
+                Men det kan være en lang opgave at skulle igennem.<br/>
+                Brug tiden til noget bedre - Jeg skriver dine tekster.
                 </p>
                 <a href="{{ route('tekstforfatning') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div>

@@ -26,9 +26,22 @@
                   <div class="row">
                     <!-- <div class="col-md-4 mx-auto"></div> -->
                     <div class="col-md-8 mx-auto text-center">
-                      <h3>Brug for Hjælp?</h3>
-                      <p>Kontakt mig her og jeg kontakter dig hurtigst muligt</p>
-                        <form>
+                      <h3>SEO på din side?</h3>
+                      <p>Kontakt mig her og jeg vender tilbage til dig</p>
+                        
+                        @if (Session::has('success'))
+                          <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <h4 class="alert-heading">Din besked blev sendt!</h4>
+                            <hr/>
+                            <p>{{ Session::get('success') }}</p>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                        @endif
+
+                        <form action="" method="">
+                          {{ csrf_field() }}
                           <div class="form-group">
                             <div class="form-row">
                               <div class="col">
@@ -52,6 +65,8 @@
                           <div class="form-group">
                             <textarea class="form-control" rows="3" placeholder="Besked"></textarea>
                           </div>
+
+                          <input type="hidden" name="contact-type">
 
                           <button type="submit" class="btn btn-block btn-cta">Send</button>
                         </form>
