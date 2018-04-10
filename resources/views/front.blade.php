@@ -15,9 +15,9 @@
             <div class="row">
               
               <div class="col-md-6">
-                <h1>SEO<br/>Webudvikling<br/>Grafisk Design</h1>
+                <h1>Jeg hjælper dig med<br/>SEO,<br/>Webudvikling<br/> &amp; <br/>Grafisk Design</h1>
                 <p class="lead pt-3">
-                  Din hjælpende hånd
+                  Lad mig være din hjælpende hånd.
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <a href="#" class="btn btn-large btn-cta">Lær mere</a>
@@ -97,11 +97,12 @@
 
               <div class="col-md-6 text-center middle-section-text">
                 <h3>SEO</h3>
-                <p class="text-left">Lorem ipsum dolor sit amet, 
-                consectetur <a href="#">adipiscing elit</a>, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna <b>aliqua</b>. Ut enim ad minim veniam
+                <p class="text-left">
+                Jeg kan hjælpe dig med at få mere synlighed på Google.<br/>
+                Kom øverst i søgeresultaterne med SEO.<br/>
+                Jeg kan styrke din on-page og off-page SEO. Også indhold, links, hastighed og analyse.
                 </p>
-                <a href="landingpage.html" class="btn btn-large btn-cta">Lær mere</a>
+                <a href="{{ route('seo') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div>
 
             </div>
@@ -114,11 +115,12 @@
             <div class="row">
               <div class="col-md-6 text-center middle-section-text">
                 <h3>Webudvikling</h3>
-                <p class="text-left">Lorem ipsum dolor sit amet, 
-                consectetur <a href="#">adipiscing elit</a>, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna <b>aliqua</b>. Ut enim ad minim veniam
+                <p class="text-left">
+                Mangler du en ny side? Eller skal have din nuværende opfrisket?<br/>
+                Så kan jeg hjælpe dig!<br/>
+                Jeg koder primært i <b>Laravel</b>, men kan også sagtens give dig en hånd, når det drejer sig om f.eks WordPress eller andre populære systemer.
                 </p>
-                <a href="#" class="btn btn-large btn-cta">Lær mere</a>
+                <a href="{{ route('webudvikling') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div> 
 
               <div class="col-md-6 d-flex justify-content-center">
@@ -138,11 +140,12 @@
 
               <div class="col-md-6 text-center middle-section-text">
                 <h3>Tekstforfatning</h3>
-                <p class="text-left">Lorem ipsum dolor sit amet, 
-                consectetur <a href="#">adipiscing elit</a>, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna <b>aliqua</b>. Ut enim ad minim veniam
+                <p class="text-left">
+                Tekster er uden tvivl vigtigt for enhver side<br/>
+                Og det kan være en kedelig langtrukken opgave, at skulle igennem.<br/>
+                Lad mig skrive dem for dig.
                 </p>
-                <a href="#" class="btn btn-large btn-cta">Lær mere</a>
+                <a href="{{ route('tekstforfatning') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div>
             </div>
           </div>
@@ -155,11 +158,10 @@
               
               <div class="col-md-6 text-center middle-section-text">
                 <h3>Grafisk Design</h3>
-                <p class="text-left">Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                <p class="text-left">
+                Om du skal have et nyt webdesign, logo eller andet grafik, kan jeg være din hjælp.
                 </p>
-                <a href="#" class="btn btn-large btn-cta">Lær mere</a>
+                <a href="{{ route('grafisk_design') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div>
 
               <div class="col-md-6 d-flex justify-content-center">
@@ -170,7 +172,7 @@
           </div>
         </section>
 
-        <!-- Møde -->
+        <!-- Other Help -->
         <section class="lightblue-section">
           <div class="container">
             <div class="row">
@@ -179,11 +181,30 @@
               </div>
 
               <div class="col-md-6 text-center middle-section-text">
-                <h3>Møde?</h3>
-                <p class="text-left">Lorem ipsum dolor sit amet, 
-                consectetur <a href="#">adipiscing elit</a>, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna <b>aliqua</b>. Ut enim ad minim veniam
+                <h3>Brug for andet hjælp?</h3>
+                <p class="text-left">
+                Er du ved at flytte din webshop? Har du flere MB filer du skal have styr på?
+                <br/>
+                Jeg kan finde en løsning til dig!
                 <a href="#" class="btn btn-block btn-success">Kontakt Her</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Møde -->
+        <section class="white-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 d-flex justify-content-center">
+                <img src="img/kaffe-kop.png" class="img-fluid" alt="Møde - Kaffe" />                                
+              </div>
+
+              <div class="col-md-6 text-center middle-section-text">
+                <h3>Lad os tage en snak</h3>
+                <p class="text-left">
+                Skal vi finde en løsning, der passer ind til dit behov?
+                <a href"{{ route('kontakt') }}" class="btn btn-block btn-success">Kontakt Her</a>
               </div>
             </div>
           </div>

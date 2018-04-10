@@ -14,8 +14,7 @@
 Route::get('/', 'PagesController@pageFront')->name('front');
 
 Route::get('seo', 'PagesController@pageSEO')->name('seo');
-// Route::get('/', function () {
-//     return view('front');
-// });
-
-//Route::get('/', 'PagesController@pageIndex')->name('welcome');
+Route::get('webudvikling', 'PagesController@pageWebudvikling')->name('webudvikling');
+Route::get('grafisk-design', 'PagesController@pageGrafiskDesign')->name('grafisk_design');
+Route::get('tekstforfatning', 'PagesController@pageTekstforfatning')->name('tekstforfatning');
+Route::get('kontakt', 'PagesController@pageKontakt')->name('kontakt');

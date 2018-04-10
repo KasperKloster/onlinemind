@@ -157,6 +157,10 @@ a:hover, a:focus {
   background-color: #F6F6F6;
   border-left: 2px solid #C3C3C3; }
 
+#contact-right {
+  background-color: #616163;
+  color: #fff; }
+
 /** BUTTONS */
 .btn-cta {
   background-color: #709CE1;

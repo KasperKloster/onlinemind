@@ -11,10 +11,10 @@
         <div class="overlay-content">
           <nav>
             <a class="nav-item" href="{{ route('seo') }}">SEO</a>
-            <a class="nav-item" href="#">About</a>
-            <a class="nav-item" href="#">Contact</a>
-            <a class="nav-item" href="#">Webudvikling</a>
-            <a class="nav-item" href="#">Contact</a>
+            <a class="nav-item" href="{{ route('webudvikling') }}">Webudvikling</a>
+            <a class="nav-item" href="{{ route('grafisk_design') }}">Grafisk Design</a>
+            <a class="nav-item" href="{{ route('tekstforfatning') }}">Tekstforfatning</a>
+            <a class="nav-item" href="{{ route('kontakt') }}">Kontakt</a>
           </nav>
         </div>
       </div>
