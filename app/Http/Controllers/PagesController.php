@@ -35,10 +35,11 @@ class PagesController extends Controller
     public function postContact(Request $request){
         // Validation
         $this->validate($request, [
-            'name'              => 'required|min:2',
+            'name'              => 'required|alpha|min:2',
             'email'             => 'required|email',
-            'message'           => 'min:10',
-            'contactFormType'   => 'min:3|max:20|required'
+            'phone'             => 'numeric',
+            'message'           => 'min:5',
+            'contactFormType'   => 'min:3|max:20|alpha|required'
         ]);
 
         $data = array(
