@@ -19,4 +19,5 @@ Route::get('grafisk-design', 'PagesController@pageGrafiskDesign')->name('grafisk
 Route::get('tekstforfatning', 'PagesController@pageTekstforfatning')->name('tekstforfatning');
 
 Route::get('kontakt', 'PagesController@pageKontakt')->name('kontakt');
-Route::post('kontakt', 'PagesController@postKontakt');
+Route::post('kontakt', 'PagesController@postContact');
+

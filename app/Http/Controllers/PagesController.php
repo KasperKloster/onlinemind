@@ -32,19 +32,21 @@ class PagesController extends Controller
     	return view('kontakt');
     }
 
-    public function postKontakt(Request $request){
+    public function postContact(Request $request){
         // Validation
         $this->validate($request, [
-            'name'      => 'required|min:2',
-            'email'     => 'required|email',
-            'message'   => 'min:10'
+            'name'              => 'required|min:2',
+            'email'             => 'required|email',
+            'message'           => 'min:10',
+            'contactFormType'   => 'min:3|max:20|required'
         ]);
 
         $data = array(
-            'name'          =>   $request->name,
-            'email'         =>   $request->email,
-            'phone'         =>   $request->phone,
-            'bodyMessage'   =>   $request->message   
+            'name'              =>  $request->name,
+            'email'             =>  $request->email,
+            'phone'             =>  $request->phone,
+            'bodyMessage'       =>  $request->message,
+            'contactFormType'   =>  $request->contactFormType  
         );
 
         Mail::send('emails.contact', $data,  function($message) use ($data){
@@ -54,6 +56,6 @@ class PagesController extends Controller
         });
 
         Session::flash('success', 'Tak for din henvendelse!');
-        return redirect('kontakt');
+        return redirect()->back();
     }
 }

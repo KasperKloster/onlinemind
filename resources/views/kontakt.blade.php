@@ -62,12 +62,29 @@
                           </div>
                         @endif
 
+                        @if (count($errors) > 0)
+                        <section class="main-content">
+                          <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <h4 class="alert-heading">Din besked blev ikke sendt.</h4>
+                            <hr/>
+                            <ul>
+                            @foreach ($errors->all() as $error)
+                              <li>{{ $error }}</li>
+                            @endforeach
+                            </ul>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                        </section>
+                        @endif
+
                         <form action="{{ url('kontakt') }}" method="POST">
                           {{ csrf_field() }}
                           <div class="form-group">
                             <div class="form-row">
                               <div class="col">
-                                <input type="text" class="form-control" name="name" placeholder="Navn">
+                                <input type="text" class="form-control" name="name" placeholder="Navn" required>
                               </div>
                             </div>
                           </div>
@@ -75,7 +92,7 @@
                           <div class="form-group">
                             <div class="form-row">
                               <div class="col">
-                                <input type="email" class="form-control" name="email" placeholder="E-mail">
+                                <input type="email" class="form-control" name="email" placeholder="E-mail" required>
                               </div>
 
                               <div class="col">
@@ -87,6 +104,8 @@
                           <div class="form-group">
                             <textarea class="form-control" rows="3" name="message" placeholder="Besked"></textarea>
                           </div>
+
+                          <input type="hidden" name="contactFormType" value="contact-form">
 
                           <button type="submit" class="btn btn-block btn-cta">Send</button>
                         </form>
