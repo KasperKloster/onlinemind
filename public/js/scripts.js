@@ -1,6 +1,18 @@
 $(document).ready(function() {
 	
-	// Open Menu
+  // When Window Scroll
+  $(window).scroll(function() {    
+      var scroll = $(window).scrollTop();
+      if (scroll >= 450) {
+        // Add background too navbar
+        $("#nav").addClass("bg-light");
+      }
+      if (scroll < 450){
+        $("#nav").removeClass("bg-light");
+      }
+  });
+	
+  // Open Menu
 	$('#menu-btn').on('click', function() {
 		$('#main-nav').css("width", "100%");
   	});
@@ -8,7 +20,6 @@ $(document).ready(function() {
   	$('#closebtn').on('click', function() {
   		$('#main-nav').css("width", "0%");
   	});
-
 
   	// Menu Button click
   	$('.overlay .nav-item').on('click', function(e){

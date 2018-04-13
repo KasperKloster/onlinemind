@@ -11,9 +11,9 @@
                   <div class="row d-flex justify-content-center">
                     <div class="col-md-4 mx-auto"></div>
                     <div class="col-md-8 mx-auto">
-                      
-                      @yield('land_content')
-
+                      <article>
+                        @yield('land_content')
+                      </article>
                     </div>
                   </div>
                 </div>

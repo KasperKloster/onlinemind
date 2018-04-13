@@ -36,6 +36,16 @@
         readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
         forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
 
+        <!-- Section Divider -->
+        <section class="d-flex justify-content-center row divider-section">
+          <h4 class="text-center">Et par af mine værktøjer</h4>
+          <ul class="list-inline">
+            <li class="list-inline-item"><img src="{{ asset('img/ikoner/illustrator_logo.png') }}" class="img-fluid" alt="Adobe Illustrator Logo" /></li>
+            <li class="list-inline-item"><img src="{{ asset('img/ikoner/photoshop_logo.png') }}" class="img-fluid" alt="Adobe Photoshop Logo" /></li>
+            <li class="list-inline-item"><img src="{{ asset('img/ikoner/sketch_logo.png') }}" class="img-fluid" alt="Adobe IllustratorLogo" /></li>
+          </ul>    
+        </section>
+
         <p>Ethical Kickstarter PBR asymmetrical lo-fi. oreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
         readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
         forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>

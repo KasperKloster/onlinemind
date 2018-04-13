@@ -20,7 +20,7 @@
       </div>
 
       <!-- Menu -->
-      <nav class="navbar fixed-top">
+      <nav id="nav" class="navbar fixed-top">
         <div class="container">
 
           <!-- brand -->

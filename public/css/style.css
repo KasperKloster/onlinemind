@@ -132,7 +132,14 @@ a:hover, a:focus {
 
 .divider-section {
   background-color: #FAFBFC;
-  padding: 50px; }
+  padding: 30px; }
+
+.divider-section h4 {
+  margin-bottom: 15px;
+  width: 100%; }
+
+.divider-section img {
+  width: 50px; }
 
 .divider-section-icon {
   display: inline-block;
@@ -152,6 +159,11 @@ a:hover, a:focus {
 /** PAGES */
 .middle-section-text {
   margin-top: 50px; }
+
+.middle-section-text p {
+  padding-left: 65px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 .landing-sidebar {
   background-color: #F6F6F6;

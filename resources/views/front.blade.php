@@ -25,7 +25,7 @@
               </div>
 
               <div class="col-md-6 d-flex justify-content-center">
-                <img src="img/desktop.png" class="img-fluid" alt="Desktop - OnlineMind" />
+                <img src="{{ asset ('img/desktop.png') }}" class="img-fluid" alt="Desktop - OnlineMind" />
               </div>
               
             </div> <!-- ./ row -->
@@ -81,7 +81,7 @@
             <div class="row justify-content-center">
               <div class="col-md-8 col-md-offset-4">
                 <h2 class="text-center">Hvem er vi? <small>Vi er Jeg</small></h2>
-                <p class="">
+                <p>
                 Du kan ansætte mig, hvis du har brug for hjælp i en kort eller længerevarende periode.<br/>
                 Min stærke kompetencer ligger i <a href="{{ route('seo') }}">SEO</a>, <a href="{{ route('webudvikling') }}">webudvikling</a> og <a href="{{ route('grafisk_design') }}">grafisk design.</a>
                 <br/><br/>
@@ -101,7 +101,7 @@
             <div class="row">
 
               <div class="col-md-6 d-flex justify-content-center">
-                <img src="img/seo-graph.png" class="img-fluid" alt="SEO Graf" />
+                <img src="{{ asset ('img/seo-graph.png') }}" class="img-fluid" alt="SEO Graf" />
               </div>
 
               <div class="col-md-6 text-center middle-section-text">
@@ -132,7 +132,7 @@
               </div> 
 
               <div class="col-md-6 d-flex justify-content-center">
-                <img src="img/webudvikling.png" class="img-fluid" alt="Webudvikling" />
+                <img src="{{ asset ('img/webudvikling.png') }}" class="img-fluid" alt="Webudvikling" />
               </div>
             </div>
           </div>
@@ -143,13 +143,13 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 d-flex justify-content-center">
-                <img src="img/tekstforfatning.png" class="img-fluid" alt="Tekstforfatning - notesbog" />
+                <img src="{{ asset ('img/tekstforfatning.png') }}" class="img-fluid" alt="Tekstforfatning - notesbog" />
               </div>
 
               <div class="col-md-6 text-center middle-section-text">
                 <h3>Tekstforfatning</h3>
                 <p class="text-left">
-                Tekster er uden tvivl vigtigt for enhver side<br/>
+                Tekster er vigtigt for enhver side.
                 Men det kan være en lang opgave at skulle igennem.<br/>
                 Brug tiden til noget bedre - <strong>Jeg skriver dine tekster.</strong>
                 </p>
@@ -174,7 +174,7 @@
               </div>
 
               <div class="col-md-6 d-flex justify-content-center">
-                  <img src="img/grafisk-design-plante.png" class="img-fluid" alt="Grafisk Design - Kaktus" />
+                  <img src="{{ asset ('img/grafisk-design-plante.png') }}" class="img-fluid" alt="Grafisk Design - Kaktus" />
               </div>
 
             </div>
@@ -186,7 +186,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 d-flex justify-content-center">
-                <img src="img/shaking-hands.png" class="img-fluid" alt="Møde - Kaffe" />                                
+                <img src="{{ asset ('img/shaking-hands.png') }}" class="img-fluid" alt="Møde - Kaffe" />                                
               </div>
 
               <div class="col-md-6 text-center middle-section-text">
@@ -195,8 +195,8 @@
                 Er du ved at flytte din webshop? Har du flere MB filer du skal have styr på?
                 <br/>
                 Jeg kan finde en løsning til dig!
-                <a href="#" class="btn btn-block btn-success">Kontakt Her</a>
                 </p>
+                <a href="#" class="btn btn-cta">Kontakt Her</a>
               </div>
             </div>
           </div>
@@ -211,12 +211,12 @@
                 <h3>Lad os tage en snak</h3>
                 <p class="text-left">
                 Skal vi finde en løsning, der passer ind til dit behov?
-                <a href="#" class="btn btn-block btn-success">Kontakt Her</a>
                 </p>
+                <a href="{{ route('kontakt') }}" class="btn btn-block btn-success">Kontakt Her</a>
               </div>
 
               <div class="col-md-6 d-flex justify-content-center">
-                <img src="img/kaffe-kop.png" class="img-fluid" alt="Møde - Kaffe" />                                
+                <img src="{{ asset ('img/kaffe-kop.png') }}" class="img-fluid" alt="Møde - Kaffe" />                                
               </div>
             </div>
           </div>
