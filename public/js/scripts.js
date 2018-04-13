@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 
   	// Menu Button click
-  	$('.overlay a').on('click', function(e){
+  	$('.overlay .nav-item').on('click', function(e){
   		// Prevent Default (Do not go to page)
   		e.preventDefault();
   		// add css class nav-click

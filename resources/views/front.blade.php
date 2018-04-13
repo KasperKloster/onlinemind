@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('meta')
-  <title>OnlineMind | Front </title>
+  <title>OnlineMind | Få Fat I en Nørd </title>
   <meta name="description" content="">
   <meta name="robots" content="index, follow">
 @endsection
@@ -15,12 +15,13 @@
             <div class="row">
               
               <div class="col-md-6">
-                <h1>SEO<br/>Webudvikling<br/> &amp; <br/>Grafisk Design</h1>
+                <h1>Mangler du en nørd?</h1>
                 <p class="lead pt-3">
-                  Lad mig være din hjælpende hånd.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Lad mig være din hjælpende hånd.<br/>
+                  Har du brug ekstra for hjælp i et kort eller længerevarende projekt. <br/><br/>
+                  Jeg står til rådighed.
                 </p>
-                <a href="#" class="btn btn-large btn-cta">Lær mere</a>
+                <a href="{{ route('kontakt') }}" class="btn btn-large btn-cta">Kontakt Mig</a>
               </div>
 
               <div class="col-md-6 d-flex justify-content-center">
@@ -77,10 +78,18 @@
       <main>
         <section class="white-section">
           <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <h2>Noget Tekst</h2>
-                <p class="lead">ksjahdkjashda</p>
+            <div class="row justify-content-center">
+              <div class="col-md-8 col-md-offset-4">
+                <h2 class="text-center">Hvem er vi? <small>Vi er Jeg</small></h2>
+                <p class="">
+                Du kan ansætte mig, hvis du har brug for hjælp i en kort eller længerevarende periode.<br/>
+                Min stærke kompetencer ligger i <a href="{{ route('seo') }}">SEO</a>, <a href="{{ route('webudvikling') }}">webudvikling</a> og <a href="{{ route('grafisk_design') }}">grafisk design.</a>
+                <br/><br/>
+                <strong>Og mere end det</strong><br/>
+                Måske du har en masse data der skal indtastes, brug for rådgivning, undervisning eller noget helt andet<br/> 
+                Hvad jeg ikke ved, finder jeg ud af. Hvad jeg ikke kan nå, finder jeg ekstra hænder til.<br/>
+                Der findes ikke den opgave, som jeg ikke kan tage.
+                </p>
               </div>
             </div>
           </div>
@@ -99,8 +108,8 @@
                 <h3>SEO</h3>
                 <p class="text-left">
                 Jeg kan hjælpe dig med at få mere synlighed på Google.<br/>
-                Kom øverst i søgeresultaterne med SEO.<br/>
-                Jeg kan styrke din on-page og off-page SEO. Også indhold, links, hastighed og analyse.
+                <strong>Kom øverst i søgeresultaterne med SEO.</strong><br/>
+                Jeg kan styrke din on-page, off-page SEO, indhold, linksbuilding, hastighedsoptimering og analyse af din side og brugere.
                 </p>
                 <a href="{{ route('seo') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div>
@@ -116,9 +125,8 @@
               <div class="col-md-6 text-center middle-section-text">
                 <h3>Webudvikling</h3>
                 <p class="text-left">
-                Mangler du en ny side? Eller skal have din nuværende opfrisket?<br/>
-                Så kan jeg hjælpe dig!<br/>
-                Jeg koder primært i <b>Laravel</b>, men kan også sagtens give dig en hånd, når det drejer sig om f.eks WordPress eller andre populære systemer.
+                Mangler du en ny side? Eller skal have din nuværende opfrisket? <strong>Så kan jeg hjælpe dig!</strong><br/>
+                Jeg koder primært i PHP, og sagtens give dig en hånd, når det drejer sig om f.eks Laravel, WordPress eller andre populære systemer.
                 </p>
                 <a href="{{ route('webudvikling') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div> 
@@ -143,7 +151,7 @@
                 <p class="text-left">
                 Tekster er uden tvivl vigtigt for enhver side<br/>
                 Men det kan være en lang opgave at skulle igennem.<br/>
-                Brug tiden til noget bedre - Jeg skriver dine tekster.
+                Brug tiden til noget bedre - <strong>Jeg skriver dine tekster.</strong>
                 </p>
                 <a href="{{ route('tekstforfatning') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div>
@@ -159,7 +167,8 @@
               <div class="col-md-6 text-center middle-section-text">
                 <h3>Grafisk Design</h3>
                 <p class="text-left">
-                Om du skal have et nyt webdesign, logo eller andet grafik, kan jeg være din hjælp.
+                Mangler du et nyt logo, et banner, webdesign, eller andet grafik?<br/> 
+                <strong>Du kontakter mig - Jeg åbner Illustrator.</strong>
                 </p>
                 <a href="{{ route('grafisk_design') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div>
@@ -177,7 +186,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 d-flex justify-content-center">
-                <img src="img/kaffe-kop.png" class="img-fluid" alt="Møde - Kaffe" />                                
+                <img src="img/shaking-hands.png" class="img-fluid" alt="Møde - Kaffe" />                                
               </div>
 
               <div class="col-md-6 text-center middle-section-text">
@@ -187,6 +196,7 @@
                 <br/>
                 Jeg kan finde en løsning til dig!
                 <a href="#" class="btn btn-block btn-success">Kontakt Her</a>
+                </p>
               </div>
             </div>
           </div>
@@ -196,15 +206,17 @@
         <section class="white-section">
           <div class="container">
             <div class="row">
-              <div class="col-md-6 d-flex justify-content-center">
-                <img src="img/kaffe-kop.png" class="img-fluid" alt="Møde - Kaffe" />                                
-              </div>
-
+              
               <div class="col-md-6 text-center middle-section-text">
                 <h3>Lad os tage en snak</h3>
                 <p class="text-left">
                 Skal vi finde en løsning, der passer ind til dit behov?
-                <a href"{{ route('kontakt') }}" class="btn btn-block btn-success">Kontakt Her</a>
+                <a href="#" class="btn btn-block btn-success">Kontakt Her</a>
+                </p>
+              </div>
+
+              <div class="col-md-6 d-flex justify-content-center">
+                <img src="img/kaffe-kop.png" class="img-fluid" alt="Møde - Kaffe" />                                
               </div>
             </div>
           </div>

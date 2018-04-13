@@ -14,7 +14,7 @@
             <a class="nav-item" href="{{ route('webudvikling') }}">Webudvikling</a>
             <a class="nav-item" href="{{ route('grafisk_design') }}">Grafisk Design</a>
             <a class="nav-item" href="{{ route('tekstforfatning') }}">Tekstforfatning</a>
-            <a class="nav-item" href="{{ route('kontakt') }}">Kontakt</a>
+            <a class="nav-item" href="{{ route('kontakt') }}">Om OnlineMind &amp; Kontakt</a>
           </nav>
         </div>
       </div>

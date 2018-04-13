@@ -12,10 +12,10 @@
           <div class="container">
             <div class="row">
               <div class="d-flex justify-content-center">
-                <div class="col-md-8 text-center">
+                <div class="col-md-8 col-md-offset-4 text-center">
                   <h1>Tekstforfatning</h1>
                   <p class="lead pt-3">
-                    Din hjælpende hånd
+                    Tekster er uden tvivl vigtigt for enhver side. Men det kan være en lang opgave at skulle igennem.<br/>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </p>
                 </div>
