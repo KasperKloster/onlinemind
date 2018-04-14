@@ -18,7 +18,7 @@
                 <h1>Mangler du en nørd?</h1>
                 <p class="lead pt-3">
                   Lad mig være din hjælpende hånd.<br/>
-                  Har du brug ekstra for hjælp i et kort eller længerevarende projekt. <br/><br/>
+                  Har du brug ekstra for hjælp i en kort eller længerevarende periode?<br/><br/>
                   Jeg står til rådighed.
                 </p>
                 <a href="{{ route('kontakt') }}" class="btn btn-large btn-cta">Kontakt Mig</a>
