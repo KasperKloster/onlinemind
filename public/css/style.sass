@@ -42,19 +42,19 @@ a:hover, a:focus
 .hover-circle
 	width: 30px
 	height: 30px
-	border: 2px solid $purple
+	//border: 2px solid $purple
 	display: inline-block
 	text-align: center
 
-	border-top-right-radius: 200px
-	border-bottom-right-radius: 200px
-	border-bottom-left-radius: 200px
-	border-top-left-radius: 200px
-	border-left-color: transparent
-	transform: rotate(45deg)
+// 	border-top-right-radius: 200px
+// 	border-bottom-right-radius: 200px
+// 	border-bottom-left-radius: 200px
+// 	border-top-left-radius: 200px
+// 	border-left-color: transparent
+// 	transform: rotate(45deg)
 
-.hover-inner-circle
-	transform: rotate(-45deg)
+// .hover-inner-circle
+// 	transform: rotate(-45deg)
 
 /**/
 
@@ -110,8 +110,11 @@ a:hover, a:focus
 	float: right
 	margin-top: 20px
 	font-size: 16px
-	color: $purple
+	color: $white
 	cursor: pointer
+
+#closebtn:hover
+	color: $purpleHover
 
 /** JUMBOTRONS **/
 
@@ -170,6 +173,9 @@ a:hover, a:focus
 
 .divider-section img
 	width: 50px
+
+.divider-section ul li
+	margin: 15px
 
 .divider-section-icon
 	display: inline-block

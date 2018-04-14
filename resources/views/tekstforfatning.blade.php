@@ -15,8 +15,8 @@
                 <div class="col-md-8 col-md-offset-4 text-center">
                   <h1>Tekstforfatning</h1>
                   <p class="lead pt-3">
-                    Tekster er uden tvivl vigtigt for enhver side. Men det kan være en lang opgave at skulle igennem.<br/>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Tekster er uden tvivl vigtigt for enhver side. Men det kan være en længere og tidskrævende opgave at skulle igennem.<br/>
+                    Jeg kan spare dig tiden og skrive dem for dig.
                   </p>
                 </div>
               </div>
@@ -27,28 +27,25 @@
 
       <!-- Landing Content -->
       @section('land_content')
-        <h3 class="text-center">I Scroll</h3>
-        <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
-        raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
-        Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
-
-        <p>Ethical Kickstarter PBR asymmetrical lo-fi. oreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
-        readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
-        forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
-
-        <p>Ethical Kickstarter PBR asymmetrical lo-fi. oreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
-        readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
-        forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
-
-        <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
-        raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
-        Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+        <h3>Tekster på din side</h3>
+        <p>
+        Først og fremmest skriver jeg dine tekster med dine brugere som første priotet.<br/>
+        De skal have de oplysninger, som de leder efter, så de ikke klikker tilbage til Google.<br/>
+        Dernæst har jeg også Google og SEO i tankerne, så du samtidig får skabt mest synlighed på Google.<br/>
+        Alle tekster bliver selvfølgelig skrevet fra bunden og er helt unikke.
+        </p>
+        <h4>Hvad koster tekster?</h4>
+        <p>
+        Prisen på tekster, er forskelligt fra opgave til opgave. Nogle gange er det undersider, andre er oversættelse, andre kræver længere analyse.
+        <a href="{{ route('kontakt') }}">Kontakt mig</a>, skriv evt. par ord om hvad du har brug for, så vender jeg tilbage til dig.
+        </p>
       @endsection
 
       <!-- Sidebar Headline -->
       @section('landing-sidebar-headline')
         <h4>Mangler du Tekster?</h4>
         <p>Kontakt mig her og jeg vender tilbage til dig</p>
+        <p>Prisen afhænger af hvad du skal have lavet</p>
       @endsection
 
       @section('contact-form-type')

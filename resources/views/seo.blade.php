@@ -15,8 +15,7 @@
                 <div class="col-md-8 text-center">
                   <h1>SEO</h1>
                   <p class="lead pt-3">
-                    Din hjælpende hånd
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Med SEO (<i>Search Engine Optimization</i>) er din mulighed for at komme op på Googles søgeresultatet, blive mere synlig og skabe mere trafik til din side.
                   </p>
                 </div>
               </div>
@@ -27,22 +26,34 @@
 
       <!-- Landing Content -->
       @section('land_content')
-    		<h3 class="text-center">I Scroll</h3>
-    		<p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
-    		raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
-    		Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
-
-    		<p>Ethical Kickstarter PBR asymmetrical lo-fi. oreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
-    		readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
-    		forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
-
-    		<p>Ethical Kickstarter PBR asymmetrical lo-fi. oreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
-    		readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
-    		forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
-
-    		<p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
-    		raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
-    		Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+    		<h3>Vær synlig på Google</h3>
+    		<p>
+        Jeg analyserer først din side og rette alle evt. tekniske fejl og mangler, der måtte være.<br/>
+        Så ved jeg at Google vil tage din side seriøst og de har nemt ved at gennemgå den (crawle)<br/>
+        Dernæst analyserer jeg dine brugers søgninger, igennem her finder jeg og udvælger de ord, der giver mest mening for din side.<br/> På <i>SEO'sk</i> bliver de ord kaldt for keywords.<br/> 
+        Udfra dine keywords skriver jeg dine sidetitler (page titles) med så høj klik værdi, som muligt.<br/>
+        De udvalgte keywords er dem jeg tracker - Det er de ord jeg vil have til at stige i placeringer.<br/> Her vurderer jeg om der skal nye tekster på.<br/> Alt tekst er fuldstændigt unikt.<br/>
+        I de fleste tilfælde vil dette være det første skridt i en SEO aftale.
+        <br/>
+        Jeg følger Google retningsregler og gør alt i deres ånd.
+        </p>
+        <h3>Linkbuilding</h3>
+    		<p>
+        Skal din side virkelig have et boost, så kommer du ikke udenom linkbuilding.<br/>
+        Jeg gør brug af flere forskellige linkbuilding strategier, metoder samt et voksende netværk, så jeg kan sørge for gode, stærke og relevante links til din side.
+        </p>
+        <h3>Analyse</h3>
+    		<p>
+        Igennem analyse kan man finde svar på mange af ens spørgsmål, få mest ud sine brugere og sin SEO.<br/> 
+        Uden analyse kan man ikke vide om det går fremaf eller tilbage med ens side og forretning<br/>
+        Der findes et hav af forskellige analyse værktøjer.<br/> Når jeg analyserer din side bruger jeg Google analytic og Google search console. Dine links bruger jeg aHrefs.<br/> De tre er mine primære værktøjer til analyse.
+        </p>
+        <h4>Hvad koster SEO?</h4>
+        <p>
+        Prisen på en SEO aftale, kan jeg ikke komme med et konkret svar på.<br/>
+        Det er helt forskellig fra opgave til opgave<br/>
+        <a href="{{ route('kontakt') }}">Kontakt mig</a>, så vender jeg tilbage til dig, sammen finder vi en løsning, der passer til din opgave.
+        </p>
       @endsection
 
       <!-- Sidebar Headline -->

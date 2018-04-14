@@ -3,8 +3,8 @@
 @section('content')
 
       <!-- Main Content -->
-      <div class="container-fluid h-100">
-          <div class="row h-100">
+      <div class="container-fluid">
+          <div class="row">
 
               <main class="col-md-8">
                 <div class="container pt-5">
@@ -17,7 +17,6 @@
                     </div>
                   </div>
                 </div>
-
               </main>
 
               <!-- Sidebar -->

@@ -1,7 +1,7 @@
 @extends('layouts.landingpage')
 
 @section('meta')
-  <title>OnlineMind | Grafisk Design </title>
+  <title>OnlineMind | Grafisk Design</title>
   <meta name="description" content="">
   <meta name="robots" content="index, follow">
 @endsection
@@ -15,8 +15,7 @@
                 <div class="col-md-8 text-center">
                   <h1>Grafisk Design</h1>
                   <p class="lead pt-3">
-                    Din hjælpende hånd
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Om du skal bruge et helt nyt webdesign, ændret farven på dit logo, mangler noget grafik til f.eks facebook ads, banner eller lignende. Så hjælper jeg dig.
                   </p>
                 </div>
               </div>
@@ -27,14 +26,13 @@
 
       <!-- Landing Content -->
       @section('land_content')
-        <h3 class="text-center">I Scroll</h3>
-        <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
-        raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
-        Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
-
-        <p>Ethical Kickstarter PBR asymmetrical lo-fi. oreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
-        readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
-        forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
+        <h3>Dit visuelle udtryk</h3>
+        <p>
+        Jeg kan gå udfra det udtryk, som du i forvejen har, så der kommer en rød tråd igennem dit brand.<br/> Jeg kan også hjælpe dig med at skabe et helt nyt.<br/> Igennem farveteori, målgruppe analyse, dine ønsker og budskab, finder jeg skitsen på et design.
+        <h3>"Men jeg har ikke Photoshop?"</h3>
+        Det kan også være at du ikke har brug for et decideret design, men skal have hjælp til at fritlægge en bunke billeder, få dem i en anden størrelse eller skal have manipuleret et foto eller noget helt andet.<br/>
+        <strong>Jeg hjælper dig gerne.</strong>
+        </p>
 
         <!-- Section Divider -->
         <section class="d-flex justify-content-center row divider-section">
@@ -46,13 +44,12 @@
           </ul>    
         </section>
 
-        <p>Ethical Kickstarter PBR asymmetrical lo-fi. oreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
-        readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
-        forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
+        <h4>Hvad er prisen på design?</h4>
+        <p>
+        Det afhænger helt af hvad du har brug for<br/>
+        <a href="{{ route('kontakt') }}">Kontakt mig</a>, så vender jeg tilbage til dig.
+        </p>
 
-        <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
-        raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
-        Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
       @endsection
 
       <!-- Sidebar Headline -->

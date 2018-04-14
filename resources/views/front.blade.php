@@ -83,11 +83,10 @@
                 <h2 class="text-center">Hvem er vi? <small>Vi er Jeg</small></h2>
                 <p>
                 Du kan ansætte mig, hvis du har brug for hjælp i en kort eller længerevarende periode.<br/>
-                Min stærke kompetencer ligger i <a href="{{ route('seo') }}">SEO</a>, <a href="{{ route('webudvikling') }}">webudvikling</a> og <a href="{{ route('grafisk_design') }}">grafisk design.</a>
+                Min stærke kompetencer ligger i <a href="{{ route('seo') }}">SEO</a>, <a href="{{ route('webudvikling') }}">webudvikling</a> og <a href="{{ route('grafisk_design') }}">grafisk design.</a> Men jeg er ikke begrænset hertil - Jeg tager alle slags opgaver, uanset størrelse.
                 <br/><br/>
                 <strong>Og mere end det</strong><br/>
                 Måske du har en masse data der skal indtastes, brug for rådgivning, undervisning eller noget helt andet<br/> 
-                Hvad jeg ikke ved, finder jeg ud af. Hvad jeg ikke kan nå, finder jeg ekstra hænder til.<br/>
                 Der findes ikke den opgave, som jeg ikke kan tage.
                 </p>
               </div>

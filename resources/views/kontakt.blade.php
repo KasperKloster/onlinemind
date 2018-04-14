@@ -12,11 +12,11 @@
           <div class="container">
             <div class="row">
               <div class="d-flex justify-content-center">
-                <div class="col-md-8 text-center">
+                <div class="col-md-12 text-center">
                   <h1>Kontakt</h1>
                   <p class="lead pt-3">
-                    Din hjælpende hånd
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  OnlineMind er en enkeltmandsvirksomhed startet og drevet af Kasper Kloster<br/>
+                  Hvad jeg ikke ved, finder jeg ud af. Hvad jeg ikke kan nå, finder jeg ekstra hænder til.<br/>
                   </p>
                 </div>
               </div>
@@ -34,8 +34,16 @@
                   <div class="row d-flex justify-content-center">
                     <div class="col-md-4 mx-auto"></div>
                     <div class="col-md-8 mx-auto">
-                      <h2>Om Onlinemind</h2>
-                      <p>akldsjalkjsdlkajsdlkajslkdjasdjkl</p>
+                      <h2>Om OnlineMind</h2>
+                      <p>
+                      <hr/>
+                      <address>
+                        Korsikavej 4, 1.th<br/>
+                        2300 København S
+                        <br/>
+                        CVR: 35 10 94 55
+                      </address>
+                    </p>
                     </div>
                   </div>
                 </div>
