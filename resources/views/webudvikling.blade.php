@@ -56,7 +56,12 @@
           </ul>    
         </section>
 
-        <h4>Hvad koster en side?</h4>
+        <h3>"Men knappen skal være til højre?"</h3>
+        <p>
+        Hvis du mangler noget fast support eller har nogle smårettelser til din nuværende side, som at tilføje en ny underside, skift farven på en knap, tilføje en kontaktformular.<br/>
+        <strong>Så hjælper jeg dig</strong> Hvis du har interesse i det, så viser jeg dig også gerne hvordan, så du selv kan gøre det i fremtiden.
+        </p>
+        <h4>Hvad koster det?</h4>
         <p>
         Prisen på en ny side, er helt forskellig fra kunde til kunde.
         Det er helt forskellig fra opgave til opgave<br/>
