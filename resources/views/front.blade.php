@@ -19,7 +19,7 @@
                 <p class="lead pt-3">
                   Lad mig være din hjælpende hånd.<br/>
                   Har du brug ekstra for hjælp i en kort eller længerevarende periode?<br/><br/>
-                  Jeg står til rådighed.
+                  Jeg står til rådighed, hvis du skal løse en konkret opgave eller brug for support.
                 </p>
                 <a href="{{ route('kontakt') }}" class="btn btn-large btn-cta">Kontakt Mig</a>
               </div>
