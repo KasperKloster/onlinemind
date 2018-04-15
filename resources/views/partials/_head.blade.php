@@ -18,6 +18,8 @@
 
 	@yield('meta')
 
+	@include('partials._ga')
+
 	</head>
 
 	<body>
