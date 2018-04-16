@@ -1,1 +1,1 @@
-<!-- Google Analytics Code -->
+<!-- Google Analytics Codes -->
