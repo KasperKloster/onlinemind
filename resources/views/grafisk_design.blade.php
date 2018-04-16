@@ -44,7 +44,7 @@
           </ul>    
         </section>
 
-        <h4>Hvad er prisen på design?</h4>
+        <h4>Hvad er prisen på Design?</h4>
         <p>
         Det afhænger helt af hvad du har brug for<br/>
         <a href="{{ route('kontakt') }}">Kontakt mig</a>, så vender jeg tilbage til dig.
