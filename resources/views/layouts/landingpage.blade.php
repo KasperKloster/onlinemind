@@ -2,6 +2,8 @@
 
 @section('content')
 
+      @yield('land_header')
+
       <!-- Main Content -->
       <div class="container-fluid">
           <div class="row">

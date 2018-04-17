@@ -6,7 +6,8 @@
   <meta name="robots" content="index, follow">
 @endsection
 
-      <!-- Header -->
+    <!-- Header -->
+    @section('land_header')
       <header>
         <div class="jumbotron jumbotron-fluid jumbotron-header">
           <div class="container">
@@ -23,7 +24,8 @@
           </div> <!-- /.container -->
         </div> <!-- /.jumbotron -->
       </header>
-
+    @endsection
+    
       <!-- Landing Content -->
       @section('land_content')
         <h3>Dit visuelle udtryk</h3>
