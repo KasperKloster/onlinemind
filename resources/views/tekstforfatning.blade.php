@@ -6,8 +6,8 @@
   <meta name="robots" content="index, follow">
 @endsection
 
-    <!-- Header -->
     @section('land_header')
+    <!-- Header -->
       <header>
         <div class="jumbotron jumbotron-fluid jumbotron-header">
           <div class="container">
@@ -27,8 +27,9 @@
       </header>
     @endsection
 
-      <!-- Landing Content -->
+      
       @section('land_content')
+      <!-- Landing Content -->
         <h3>Tekster på din side</h3>
         <p>
         Først og fremmest skriver jeg dine tekster med dine brugere som første priotet.<br/>
@@ -43,8 +44,8 @@
         </p>
       @endsection
 
-      <!-- Sidebar Headline -->
       @section('landing-sidebar-headline')
+      <!-- Sidebar Headline -->
         <h4>Mangler du Tekster?</h4>
         <p>Kontakt mig her og jeg vender tilbage til dig</p>
         <p>Prisen afhænger af hvad du skal have lavet</p>

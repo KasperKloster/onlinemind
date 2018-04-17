@@ -6,8 +6,8 @@
   <meta name="robots" content="index, follow">
 @endsection
 
-    <!-- Header -->
     @section('land_header')
+     <!-- Header -->
       <header>
         <div class="jumbotron jumbotron-fluid jumbotron-header">
           <div class="container">
@@ -25,9 +25,9 @@
         </div> <!-- /.jumbotron -->
       </header>
     @endsection
-    
-      <!-- Landing Content -->
+
       @section('land_content')
+      <!-- Landing Content -->s
         <h3>Dit visuelle udtryk</h3>
         <p>
         Jeg kan gå udfra det udtryk, som du i forvejen har, så der kommer en rød tråd igennem dit brand.<br/> Jeg kan også hjælpe dig med at skabe et helt nyt.<br/> Igennem farveteori, målgruppe analyse, dine ønsker og budskab, finder jeg skitsen på et design.
@@ -54,8 +54,9 @@
 
       @endsection
 
-      <!-- Sidebar Headline -->
+      
       @section('landing-sidebar-headline')
+      <!-- Sidebar Headline -->
         <h4>Skal du bruge Grafisk Design?</h4>
         <p>Kontakt mig her og jeg vender tilbage til dig</p>
       @endsection

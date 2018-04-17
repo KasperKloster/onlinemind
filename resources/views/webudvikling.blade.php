@@ -6,8 +6,8 @@
   <meta name="robots" content="index, follow">
 @endsection
 
-    <!-- Header -->
     @section('land_header')
+      <!-- Header -->
       <header>
         <div class="jumbotron jumbotron-fluid jumbotron-header">
           <div class="container">
@@ -27,8 +27,8 @@
       </header>
     @endsection
 
-      <!-- Landing Content -->
       @section('land_content')
+      <!-- Landing Content -->
         <h3>Fordele ved Laravel</h3>
         <p>
         Når jeg koder en side fra bunden, er mit fortrukne system Laravel.<br/>
@@ -72,8 +72,8 @@
 
       @endsection
 
-      <!-- Sidebar Headline -->
       @section('landing-sidebar-headline')
+      <!-- Sidebar Headline -->
         <h4>Ny side?</h4>
         <p>Kontakt mig her og jeg vender tilbage til dig</p>
       @endsection

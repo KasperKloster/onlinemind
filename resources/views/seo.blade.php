@@ -6,8 +6,8 @@
   <meta name="robots" content="index, follow">
 @endsection
 
-    <!-- Header -->
     @section('land_header')
+    <!-- Header -->
       <header>
         <div class="jumbotron jumbotron-fluid jumbotron-header">
           <div class="container">
@@ -26,8 +26,8 @@
       </header>
     @endsection
 
-      <!-- Landing Content -->
       @section('land_content')
+      <!-- Landing Content -->
     		<h3>Vær synlig på Google</h3>
     		<p>
         Jeg analyserer først din side og rette alle evt. tekniske fejl og mangler, der måtte være.<br/>
@@ -58,8 +58,8 @@
         </p>
       @endsection
 
-      <!-- Sidebar Headline -->
       @section('landing-sidebar-headline')
+      <!-- Sidebar Headline -->
         <h4>SEO på din side?</h4>
         <p>Kontakt mig her og jeg vender tilbage til dig</p>
       @endsection
