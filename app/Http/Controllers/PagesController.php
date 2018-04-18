@@ -59,4 +59,5 @@ class PagesController extends Controller
         Session::flash('success', 'Tak for din henvendelse!');
         return redirect()->back();
     }
+
 }
