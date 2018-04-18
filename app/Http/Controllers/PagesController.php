@@ -37,7 +37,7 @@ class PagesController extends Controller
         $this->validate($request, [
             'name'              => 'required|alpha_dash|min:2',
             'email'             => 'required|email',
-            'phone'             => 'numeric',
+            'phone'             => 'numeric|nullable',
             'message'           => 'min:5',
             'contactFormType'   => 'min:3|max:20|required'
         ]);

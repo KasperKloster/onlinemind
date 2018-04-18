@@ -27,7 +27,7 @@
     @endsection
 
       @section('land_content')
-      <!-- Landing Content -->s
+      <!-- Landing Content -->
         <h3>Dit visuelle udtryk</h3>
         <p>
         Jeg kan gå udfra det udtryk, som du i forvejen har, så der kommer en rød tråd igennem dit brand.<br/> Jeg kan også hjælpe dig med at skabe et helt nyt.<br/> Igennem farveteori, målgruppe analyse, dine ønsker og budskab, finder jeg skitsen på et design.
