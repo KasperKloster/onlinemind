@@ -7,7 +7,7 @@
               <b>OnlineMind</b><br/>
               Korsikavej 4. 1th<br/>
               2300 København S<br/>
-              <i>CVR: 35 10 94 55</i>
+              <i>CVR: 35109455</i>
               </address>
             </div>
           </div>

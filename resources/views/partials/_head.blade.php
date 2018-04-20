@@ -28,7 +28,7 @@
 	@yield('meta')
 
 	@include('partials._ga')
-
+	<meta name="google-site-verification" content="yLz0uj4w3eFpXGHOU5ijSVSk1s4bPMmBR9x1ym13lVU" />
 	</head>
 
 	<body>
