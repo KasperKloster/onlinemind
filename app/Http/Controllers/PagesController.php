@@ -35,7 +35,7 @@ class PagesController extends Controller
     public function postContact(Request $request){
         // Validation
         $this->validate($request, [
-            'name'              => 'required|alpha_dash|min:2',
+            'name'              => 'required|min:2',
             'email'             => 'required|email',
             'phone'             => 'numeric|nullable',
             'message'           => 'min:5',

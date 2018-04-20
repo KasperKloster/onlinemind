@@ -190,6 +190,9 @@ a:hover, a:focus {
   background-color: #404041;
   padding: 10px; }
 
+@media screen and (max-width: 568px) {
+  #footer {
+    padding-top: 80px; } }
 #footer address {
   color: #F2F7FF;
   font-size: 12px; }
