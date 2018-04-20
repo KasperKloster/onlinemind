@@ -6,6 +6,7 @@
   <meta name="robots" content="index, follow">
 @endsection
 
+
       <!-- Header -->
       <header>
         <div class="jumbotron jumbotron-fluid jumbotron-header">
@@ -125,3 +126,6 @@
 
           </div> <!-- ./ row h-100 -->
       </div> <!-- ./container h-100 -->
+
+@section('content')
+@endsection
