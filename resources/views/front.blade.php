@@ -34,7 +34,7 @@
       </header>
 
       <!-- Section Divider -->
-      <section class="divider-section">
+      <section class="divider-section d-none d-md-block">
         <div class="container">
           <div class="row text-center">
             
@@ -99,7 +99,7 @@
           <div class="container">
             <div class="row">
 
-              <div class="col-md-6 d-flex justify-content-center">
+              <div class="col-md-6 text-center d-none d-md-block">
                 <img src="{{ asset ('img/seo-graph.png') }}" class="img-fluid" alt="SEO Graf" />
               </div>
 
@@ -108,7 +108,7 @@
                 <p class="text-left">
                 Jeg kan hjælpe dig med at få mere synlighed på Google.<br/>
                 <strong>Kom øverst i søgeresultaterne med SEO.</strong><br/>
-                Jeg kan styrke din on-page, off-page SEO, indhold, linksbuilding, hastighedsoptimering og analyse af din side og brugere.
+                Jeg kan b.la styrke din on-page, off-page SEO, indholdet, linkbuilding, hastighedsoptimering, konverteringssporing og analyse af din side og brugere.
                 </p>
                 <a href="{{ route('seo') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div>
@@ -129,8 +129,8 @@
                 </p>
                 <a href="{{ route('webudvikling') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div> 
-
-              <div class="col-md-6 d-flex justify-content-center">
+              
+              <div class="col-md-6 text-center d-none d-md-block">
                 <img src="{{ asset ('img/webudvikling.png') }}" class="img-fluid" alt="Webudvikling" />
               </div>
             </div>
@@ -141,7 +141,7 @@
         <section id="front-tekstforfatning" class="lightblue-section">
           <div class="container">
             <div class="row">
-              <div class="col-md-6 d-flex justify-content-center">
+              <div class="col-md-6 text-center d-none d-md-block">
                 <img src="{{ asset ('img/tekstforfatning.png') }}" class="img-fluid" alt="Tekstforfatning - notesbog" />
               </div>
 
@@ -172,7 +172,7 @@
                 <a href="{{ route('grafisk_design') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div>
 
-              <div class="col-md-6 d-flex justify-content-center">
+              <div class="col-md-6 text-center d-none d-md-block">
                   <img src="{{ asset ('img/grafisk-design-plante.png') }}" class="img-fluid" alt="Grafisk Design - Kaktus" />
               </div>
 
@@ -184,7 +184,7 @@
         <section class="lightblue-section">
           <div class="container">
             <div class="row">
-              <div class="col-md-6 d-flex justify-content-center">
+              <div class="col-md-6 text-center d-none d-md-block">
                 <img src="{{ asset ('img/shaking-hands.png') }}" class="img-fluid" alt="Møde - Kaffe" />                                
               </div>
 
@@ -214,7 +214,7 @@
                 <a href="{{ route('kontakt') }}" class="btn btn-block btn-success">Kontakt Her</a>
               </div>
 
-              <div class="col-md-6 d-flex justify-content-center">
+              <div class="col-md-6 text-center d-none d-md-block">
                 <img src="{{ asset ('img/kaffe-kop.png') }}" class="img-fluid" alt="Møde - Kaffe" />                                
               </div>
             </div>

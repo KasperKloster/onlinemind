@@ -3,6 +3,9 @@ h1, h2, h3, h4, h5 {
   font-family: "Work Sans", sans-serif;
   font-weight: 700; }
 
+@media screen and (max-width: 568px) {
+  h1 {
+    font-size: 32px; } }
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400; }
@@ -161,9 +164,13 @@ a:hover, a:focus {
   padding-top: 10px;
   padding-bottom: 10px; }
 
+@media screen and (max-width: 568px) {
+  .middle-section-text p {
+    padding-left: 0px; } }
 .landing-sidebar {
   background-color: #F6F6F6;
-  border-left: 2px solid #C3C3C3; }
+  border-left: 2px solid #C3C3C3;
+  padding-bottom: 100px; }
 
 #contact-right {
   background-color: #616163;

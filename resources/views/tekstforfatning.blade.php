@@ -1,7 +1,7 @@
 @extends('layouts.landingpage')
 
 @section('meta')
-  <title>OnlineMind | Tekstforfatning </title>
+  <title>OnlineMind | Tekstforfatning - Tekster Til Din Side Ser</title>
   <meta name="description" content="">
   <meta name="robots" content="index, follow">
 @endsection
