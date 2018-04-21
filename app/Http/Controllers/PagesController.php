@@ -52,7 +52,7 @@ class PagesController extends Controller
 
         Mail::send('emails.contact', $data,  function($message) use ($data){
             $message->from($data['email']);
-            $message->to('mig@kasperkloster.dk');
+            $message->to('kasper@onlinemind.dk');
             $message->subject('Besked fra Onlinemind');
         });
 

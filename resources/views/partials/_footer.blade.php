@@ -5,6 +5,7 @@
             <div class="col-md-2">
               <address class="text-center">
               <b>OnlineMind</b><br/>
+              Email: <a href="mailto:kasper@onlinemind.dk">kasper@onlinemind.dk</a><br/>
               Korsikavej 4. 1th<br/>
               2300 København S<br/>
               <i>CVR: 35109455</i>
