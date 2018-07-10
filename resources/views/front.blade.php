@@ -215,7 +215,7 @@
               </div>
 
               <div class="col-md-6 text-center d-none d-md-block">
-                <img src="{{ asset ('img/kaffe-kop.png') }}" class="img-fluid" alt="Møde - Kaffe" />                                
+                <img src="{{ asset ('img/gif/kaffe-kop.gif') }}" class="img-fluid" alt="Møde - Kaffe" />                                
               </div>
             </div>
           </div>
