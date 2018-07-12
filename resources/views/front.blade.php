@@ -185,7 +185,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 text-center d-none d-md-block">
-                <img src="{{ asset ('img/shaking-hands.png') }}" class="img-fluid" alt="Møde - Kaffe" />                                
+                <img src="{{ asset ('img/shaking-hands.png') }}" class="img-fluid" alt="Support og andet hjælp" />                                
               </div>
 
               <div class="col-md-6 text-center middle-section-text">
@@ -201,12 +201,12 @@
           </div>
         </section>
 
-        <!-- Møde -->
+        <!-- Meeting -->
         <section class="white-section">
           <div class="container">
             <div class="row">
               
-              <div class="col-md-6 text-center middle-section-text">
+              <div class="col-md-6 text-center middle-section-text pt-5">
                 <h3>Lad os tage en snak</h3>
                 <p class="text-left">
                 Skal vi finde en løsning, der passer ind til dit behov?

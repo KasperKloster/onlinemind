@@ -2,7 +2,7 @@
 
 @section('meta')
   <title>OnlineMind | Brug for SEO? Jeg Hjælper Dig </title>
-  <meta name="description" content="">
+  <meta name="description" content="Vil du findes i toppen hos Google? Vil du have mere organisk trafik? Så er SEO svaret! Jeg er ekspert i on-page og off-page SEO. Kontakt mig for prisen.">
   <meta name="robots" content="index, follow">
 @endsection
 

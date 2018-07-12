@@ -110,7 +110,7 @@ a:hover, a:focus {
 /**	SECTIONS */
 .white-section {
   background-color: #fff;
-  padding: 80px; }
+  padding: 60px; }
 
 .white-section h2 {
   text-decoration: underline;
@@ -119,7 +119,7 @@ a:hover, a:focus {
 
 .lightblue-section {
   background-color: #F2F7FF;
-  padding: 80px; }
+  padding: 60px; }
 
 .lightblue-section h2 {
   text-decoration: underline;
@@ -192,7 +192,7 @@ a:hover, a:focus {
 
 @media screen and (max-width: 568px) {
   #footer {
-    padding-top: 80px; } }
+    padding-top: 350px; } }
 #footer address {
   color: #F2F7FF;
   font-size: 12px; }

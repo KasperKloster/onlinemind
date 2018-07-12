@@ -2,7 +2,7 @@
 
 @section('meta')
   <title>OnlineMind | Webudvikling - Mangler du hjælp til din Side?</title>
-  <meta name="description" content="">
+  <meta name="description" content="Webudvikling primært i Laravel og WordPress. Jeg skriver ren kode, med Google, Bruger, Sikkerhed & Hastighed i tankerne. PHP, JavaScript, HTML/CSS mm.">
   <meta name="robots" content="index, follow">
 @endsection
 
