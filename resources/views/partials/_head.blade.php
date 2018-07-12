@@ -29,6 +29,44 @@
 
 	@include('partials._ga')
 	
+	<script type="application/ld+json">
+	{
+	"@context": "http://schema.org",
+	"@type": "Corporation",
+		"email": "kasper(at)onlinemind.dk",
+		"telephone": "31777940",
+		"name": "OnlineMind",
+		"description": "Webudvikling, SEO, Grafisk Design og alt andet indenfor internettet. Jeg er din hjælpende hånd og mere til.",
+		"VatID": "35109455",
+		"TaxID": "35109455",
+		"url": "https://onlinemind.dk",
+		"logo": "{{ asset ('img/onlinemind-font-logo.jpg') }}",
+
+	   "address": {
+    		"@type": "PostalAddress",
+    		"addressLocality": "Copenhagen, Denmark",
+    		"postalCode": "2300",
+    		"streetAddress": "Korsikavej 4, 1th."
+  		},
+
+		"founder": {
+			"@type": "Person",
+			"name": "Kasper Kloster",
+			"email": "kasper(at)onlinemind.dk",
+			"telephone": "31777940",
+			"sameAs": [
+				"https://kasperkloster.dk",
+				"http://github.com/kasperkloster",
+				"https://dk.linkedin.com/in/kasperkloster",
+				"https://www.behance.net/KasperKloster",
+				"https://www.instagram.com/kasperkloster/",
+				"https://twitter.com/kasperkloster"
+			]
+		}
+	}
+	
+	</script>
+
 	</head>
 
 	<body>
