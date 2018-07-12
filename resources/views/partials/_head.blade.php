@@ -44,9 +44,10 @@
 
 	   "address": {
     		"@type": "PostalAddress",
-    		"addressLocality": "Copenhagen, Denmark",
+    		"addressLocality": "Copenhagen",
     		"postalCode": "2300",
-    		"streetAddress": "Korsikavej 4, 1th."
+    		"streetAddress": "Korsikavej 4, 1th.",
+    		"addressCountry" : "Denmark"
   		},
 
 		"founder": {
