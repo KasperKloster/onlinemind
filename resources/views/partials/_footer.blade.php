@@ -6,6 +6,7 @@
               <address class="text-center">
               <b>OnlineMind</b><br/>
               Email: <a href="mailto:kasper@onlinemind.dk">kasper@onlinemind.dk</a><br/>
+              Tlf: <a href="tel:+4531777940">31 77 79 40</a><br/>
               Korsikavej 4. 1th<br/>
               2300 København S<br/>
               <i>CVR: 35109455</i>
