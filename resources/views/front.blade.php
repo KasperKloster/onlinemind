@@ -191,11 +191,11 @@
               <div class="col-md-6 text-center middle-section-text">
                 <h3>Brug for andet hjælp?</h3>
                 <p class="text-left">
-                Er du ved at flytte din webshop? Har du flere MB filer du skal have styr på?
+                Er du ved at flytte din webshop? Har du flere MB filer du skal have styr på? Brug for løbende support eller skal finde en løsning på et problem?
                 <br/>
-                Jeg kan finde en løsning til dig!
+                Jeg kan hjælper dig!
                 </p>
-                <a href="#" class="btn btn-cta">Kontakt Her</a>
+                <a href="{{ route('kontakt') }}" class="btn btn-cta">Kontakt Her</a>
               </div>
             </div>
           </div>
