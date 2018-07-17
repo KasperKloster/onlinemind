@@ -34,6 +34,7 @@
         Når jeg koder en side fra bunden, er mit fortrukne system Laravel.<br/>
         Laravel er et forholdsvist nyt PHP MVC framework.<br/> Et framework er skelet, så man kan få sin side op at køre hurtigere end hvis du skriver koden helt fra bunden. Hertil er meget af sikkerheden allerede taget hånd om.<br/>
         Med en side der er kodet vha. et MVC, har du kontrol over alt og kan lave en løsning, der passer præcist til ens behov.<br/>
+        Jeg går højt op op i struktureret og sikker kode<br/>
         Derudover har Laravel et stort og hjælpsomt community.<br/>
         <i>Denne side er lavet med Laravel</i>
         <p>
