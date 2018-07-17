@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700%7CWork+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700%7CWork+Sans:400,700" rel="stylesheet" integrity="sha384-VA0c1h2/U6xFrA6IjIE6bCIefGkxvXlIr6a4SU0wmlGeAnu+naRM61CwXIbgr4p5" crossorigin="anonymous">
 
 	<!-- Icons -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
