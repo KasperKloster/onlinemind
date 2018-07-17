@@ -2,7 +2,7 @@
 
 @section('meta')
   <title>OnlineMind | Få Fat I en Nørd </title>
-  <meta name="description" content="Mangler du en Nørd? Jeg kan hjælpe dig med SEO, udvikling, Grafisk Design, Hosting og en alt andet indenfor internettet. Få en Løsning - Kontakt mig!">
+  <meta name="description" content="Mangler du en Nørd? Jeg kan hjælpe dig med SEO, udvikling, Grafisk Design, Hosting og alt andet indenfor internettet. Få en Løsning - Kontakt mig!">
   <meta name="robots" content="index, follow">
 @endsection
 
