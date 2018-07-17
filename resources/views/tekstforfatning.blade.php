@@ -1,7 +1,7 @@
 @extends('layouts.landingpage')
 
 @section('meta')
-  <title>OnlineMind | Tekstforfatning - Tekster Til Din Side Ser</title>
+  <title>OnlineMind | Tekstforfatning - Tekster Til Din Side Her</title>
   <meta name="description" content="Lad mig skrive dine tekster til din side. Tekster optimeret til dine brugere og SEO venlige. Prisen på tekster, er forskelligt fra opgave til opgave.">
   <meta name="robots" content="index, follow">
 @endsection

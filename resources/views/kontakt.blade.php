@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('meta')
-  <title>OnlineMind | Kontakt </title>
+  <title>OnlineMind | Kontakt OnlineMind & Kasper Kloster</title>
   <meta name="description" content="Kontakt Kasper Kloster & OnlineMind. En enkeltmandsvirksomhed, der kan hjælpe dig med alt indenfor internettet. Alle opgaver tages. Vi starter dialogen her.">
   <meta name="robots" content="index, follow">
 @endsection

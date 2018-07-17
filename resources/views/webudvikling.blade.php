@@ -1,7 +1,7 @@
 @extends('layouts.landingpage')
 
 @section('meta')
-  <title>OnlineMind | Webudvikling - Mangler du hjælp til din Side?</title>
+  <title>OnlineMind | Webudvikling - Ny side med Laravel?</title>
   <meta name="description" content="Webudvikling primært i Laravel og WordPress. Jeg skriver ren kode, med Google, Bruger, Sikkerhed & Hastighed i tankerne. PHP, JavaScript, HTML/CSS mm.">
   <meta name="robots" content="index, follow">
 @endsection
