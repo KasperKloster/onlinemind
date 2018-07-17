@@ -11,7 +11,7 @@ class Extended extends Basic
     public function configure()
     {
         parent::configure();
-        
+
 		// Allow scripts from Bootstrap
         $this->addDirective(Directive::STYLE, 'maxcdn.bootstrapcdn.com');
 
@@ -33,12 +33,5 @@ class Extended extends Basic
         $this->addDirective(Directive::IMG, 'https://use.fontawesome.com');
         $this->addDirective(Directive::SCRIPT, 'https://use.fontawesome.com/releases/v5.0.8/js/all.js');
         $this->addDirective(Directive::STYLE, 'https://use.fontawesome.com/releases/v5.0.8/css/all.css');
-        // $this->addDirective(Directive::IMG, 'http://www.w3.org/2000/svg');
-
-        //
-        $this->addDirective(Directive::SCRIPT, 'self');
-        $this->addDirective(Directive::STYLE, 'self');
-        $this->addNonceForDirective(Directive::SCRIPT);
-        $this->addNonceForDirective(Directive::STYLE);
     }
 }
