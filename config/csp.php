@@ -6,8 +6,8 @@ return [
      * A policy will determine which CSP headers will be set. A valid CSP policy is
      * any class that extends `Spatie\Csp\Policies\Policy`
      */
-    /*'policy' => App\Http\Policies\Extended::class,*/
-    'policy' => Spatie\Csp\Policies\Basic::class,
+    'policy' => App\Http\Policies\Extended::class,
+    /*'policy' => Spatie\Csp\Policies\Basic::class,*/
 
     /*
      * This policy which will be put in report only mode. This is great for testing out

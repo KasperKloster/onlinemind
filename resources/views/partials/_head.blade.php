@@ -12,10 +12,13 @@
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700%7CWork+Sans:400,700" rel="stylesheet" integrity="sha384-VA0c1h2/U6xFrA6IjIE6bCIefGkxvXlIr6a4SU0wmlGeAnu+naRM61CwXIbgr4p5" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Work+Sans:400,700">
 
 	<!-- Icons -->
-	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+{{-- 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" data-auto-add-css="false" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/svg-with-js.css" integrity="sha384-EH3TEAKYd7R0QbCS4OFuYoEpaXITVg5c/gdZ/beEaAbRjMGVuVLLFjiIKOneCzGZ" crossorigin="anonymous"> --}}
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
 
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ asset ('img/favicon/apple-touch-icon.png') }}">
