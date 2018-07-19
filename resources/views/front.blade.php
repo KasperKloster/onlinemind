@@ -167,7 +167,7 @@
                 <h3>Grafisk Design</h3>
                 <p class="text-left">
                 Mangler du et nyt logo, et banner, webdesign, eller andet grafik?<br/> 
-                <strong>Du kontakter mig - Jeg åbner Illustrator.</strong>
+                <strong>Du kontakter mig. Jeg åbner Illustrator.</strong>
                 </p>
                 <a href="{{ route('grafisk_design') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div>
