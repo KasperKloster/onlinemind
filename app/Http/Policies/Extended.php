@@ -32,7 +32,7 @@ class Extended extends Basic
         $this->addDirective(Directive::STYLE, '*.google-analytics.com');
         $this->addDirective(Directive::IMG, '*.google-analytics.com');
 
-        // Allow Javascripts (jQuery and Bootstrap)
+        // Allow JavaScript (jQuery and Bootstrap)
         $this->addDirective(Directive::SCRIPT, 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js');
         $this->addDirective(Directive::SCRIPT, 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js');
         $this->addDirective(Directive::SCRIPT, 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js');

@@ -194,10 +194,17 @@ a:hover, a:focus {
   background-color: #404041;
   padding: 10px; }
 
+#footer h6 {
+  color: #fff; }
+
+#footer i {
+  color: #fff; }
+
 @media screen and (max-width: 568px) {
   #footer {
     padding-top: 350px; } }
 #footer address {
+  line-height: 24px;
   color: #F2F7FF;
   font-size: 12px; }
 

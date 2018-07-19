@@ -1,17 +1,29 @@
       <!-- Footer -->
       <footer id="footer">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-2">
-              <address class="text-center">
-              <b>OnlineMind</b><br/>
-              Email: <a href="mailto:kasper@onlinemind.dk">kasper@onlinemind.dk</a><br/>
-              Tlf: <a href="tel:+4531777940">31 77 79 40</a><br/>
-              Korsikavej 4. 1th<br/>
-              2300 København S<br/>
-              <i>CVR: 35109455</i>
+          <div class="row justify-content-center text-center">
+            <div class="col-md-4">
+              <h6>OnlineMind</h6>
+            </div>
+
+            <div class="col-md-4">
+              <h6>Kontakt</h6>
+              <address>
+              Email: <a href="mailto:kasper@onlinemind.dk">kasper@onlinemind.dk</a>
+              <br/>
+              Tlf: <a href="tel:+4531777940">31 77 79 40</a>
               </address>
             </div>
+
+            <div class="col-md-4">
+              <h6>Adresse</h6>
+              <address>
+                Korsikavej 4. 1th<br/>
+                2300 København S<br/>
+                <i>CVR: 35109455</i>
+              </address>
+            </div>
+
           </div>
         </div>
       </footer>
