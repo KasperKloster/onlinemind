@@ -150,7 +150,7 @@
                 <p class="text-left">
                 Tekster er vigtigt for enhver side.
                 Men det kan være en lang opgave at skulle igennem.<br/>
-                Brug tiden til noget bedre - <strong>Jeg skriver dine tekster.</strong>
+                Brug tiden til noget bedre. <strong>Jeg skriver dine tekster.</strong>
                 </p>
                 <a href="{{ route('tekstforfatning') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div>
