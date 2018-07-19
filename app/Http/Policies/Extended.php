@@ -13,12 +13,15 @@ class Extended extends Basic
         parent::configure();
 
 		// Allow scripts from Bootstrap
+        $this->addDirective(Directive::DEFAULT, 'https://maxcdn.bootstrapcdn.com');
         $this->addDirective(Directive::STYLE, 'https://maxcdn.bootstrapcdn.com');
+        $this->addDirective(Directive::FONT, 'https://maxcdn.bootstrapcdn.com');
 
-        // Allow scripts from Google.com // Fonts
+        // Allow scripts from Google.com // Fonts, Tag Manager, Analytics
+        $this->addDirective(Directive::DEFAULT, 'https://fonts.gstatic.com');
         $this->addDirective(Directive::STYLE, 'https://fonts.googleapis.com/css');
         $this->addDirective(Directive::SCRIPT, 'https://fonts.googleapis.com/css');
-        $this->addDirective(Directive::DEFAULT, 'https://fonts.gstatic.com');
+        $this->addDirective(Directive::FONT, 'https://fonts.gstatic.com');
         
         $this->addDirective(Directive::SCRIPT, '*.googletagmanager.com');
         $this->addDirective(Directive::STYLE, '*.googletagmanager.com');
@@ -38,7 +41,7 @@ class Extended extends Basic
         $this->addDirective(Directive::DEFAULT, 'https://use.fontawesome.com/');
         $this->addDirective(Directive::SCRIPT, 'https://use.fontawesome.com/');
         $this->addDirective(Directive::STYLE, 'https://use.fontawesome.com/');
-        $this->addDirective(Directive::IMG, 'https://use.fontawesome.com/');
+        $this->addDirective(Directive::FONT, 'https://use.fontawesome.com/');
 
     }
 }
