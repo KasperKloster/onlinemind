@@ -54,6 +54,13 @@
     		"addressCountry" : "Denmark"
   		},
 
+  		"contactPoint" : {
+			"@type": "ContactPoint",
+			"telephone": "+4531777940",
+			"contactType": "customer service",
+			"availableLanguage": "Danish, English"
+  		},
+
 		"founder": {
 			"@type": "Person",
 			"name": "Kasper Kloster",
