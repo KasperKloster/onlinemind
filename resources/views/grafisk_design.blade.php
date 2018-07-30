@@ -2,7 +2,7 @@
 
 @section('meta')
   <title>OnlineMind | Grafisk Design</title>
-  <meta name="description" content="">
+  <meta name="description" content="Grafisk Design. Mangler du et nyt logo, et banner, webdesign, nyhedsbrev, eller andet grafik? Du kontakter mig - Jeg åbner Illustrator & Photoshop.">
   <meta name="robots" content="index, follow">
 @endsection
 

@@ -2,7 +2,7 @@
 
 @section('meta')
   <title>OnlineMind | Få Fat I en Nørd </title>
-  <meta name="description" content="">
+  <meta name="description" content="Mangler du en Nørd? Jeg kan hjælpe dig med SEO, udvikling, Grafisk Design, Hosting og alt andet indenfor internettet. Få en Løsning - Kontakt mig!">
   <meta name="robots" content="index, follow">
 @endsection
 
@@ -150,7 +150,7 @@
                 <p class="text-left">
                 Tekster er vigtigt for enhver side.
                 Men det kan være en lang opgave at skulle igennem.<br/>
-                Brug tiden til noget bedre - <strong>Jeg skriver dine tekster.</strong>
+                Brug tiden til noget bedre. <strong>Jeg skriver dine tekster.</strong>
                 </p>
                 <a href="{{ route('tekstforfatning') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div>
@@ -185,28 +185,28 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 text-center d-none d-md-block">
-                <img src="{{ asset ('img/shaking-hands.png') }}" class="img-fluid" alt="Møde - Kaffe" />                                
+                <img src="{{ asset ('img/shaking-hands.png') }}" class="img-fluid" alt="Support og andet hjælp" />                                
               </div>
 
               <div class="col-md-6 text-center middle-section-text">
                 <h3>Brug for andet hjælp?</h3>
                 <p class="text-left">
-                Er du ved at flytte din webshop? Har du flere MB filer du skal have styr på?
+                Er du ved at flytte din webshop? Har du flere MB filer du skal have styr på? Brug for løbende support eller skal finde en løsning på et problem?
                 <br/>
-                Jeg kan finde en løsning til dig!
+                Jeg kan hjælper dig!
                 </p>
-                <a href="#" class="btn btn-cta">Kontakt Her</a>
+                <a href="{{ route('kontakt') }}" class="btn btn-cta">Kontakt Her</a>
               </div>
             </div>
           </div>
         </section>
 
-        <!-- Møde -->
+        <!-- Meeting -->
         <section class="white-section">
           <div class="container">
             <div class="row">
               
-              <div class="col-md-6 text-center middle-section-text">
+              <div class="col-md-6 text-center middle-section-text pt-5">
                 <h3>Lad os tage en snak</h3>
                 <p class="text-left">
                 Skal vi finde en løsning, der passer ind til dit behov?
@@ -215,7 +215,7 @@
               </div>
 
               <div class="col-md-6 text-center d-none d-md-block">
-                <img src="{{ asset ('img/kaffe-kop.png') }}" class="img-fluid" alt="Møde - Kaffe" />                                
+                <img src="{{ asset ('img/gif/kaffe-kop.gif') }}" class="img-fluid" alt="Møde - Kaffe" />                                
               </div>
             </div>
           </div>

@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://onlinemind.dk/sitemap.xml

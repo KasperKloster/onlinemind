@@ -8,7 +8,7 @@ $blueCta:		#709CE1
 $blueCtaHover:	#638AC7
 
 
-$sectionPadding: 80px
+$sectionPadding: 60px
 
 // STYLES
 
@@ -47,20 +47,8 @@ a:hover, a:focus
 .hover-circle
 	width: 30px
 	height: 30px
-	//border: 2px solid $purple
 	display: inline-block
 	text-align: center
-
-// 	border-top-right-radius: 200px
-// 	border-bottom-right-radius: 200px
-// 	border-bottom-left-radius: 200px
-// 	border-top-left-radius: 200px
-// 	border-left-color: transparent
-// 	transform: rotate(45deg)
-
-// .hover-inner-circle
-// 	transform: rotate(-45deg)
-
 /**/
 
 /* The Overlay (background) */
@@ -78,9 +66,6 @@ a:hover, a:focus
 
 /* Position the content inside the overlay */
 .overlay-content
-	// position: relative
-	// top: 25%
-	// width: 100%
 	text-align: center
 	margin-top: 100px
 
@@ -182,11 +167,15 @@ a:hover, a:focus
 .divider-section ul li
 	margin: 15px
 
+.divider-section-icon svg
+	width: 40px
+	height: 40px
+
 .divider-section-icon
 	display: inline-block
-	padding-top: 20px
-	width: 80px
-	height: 80px
+	padding-top: 10px
+	width: 65px
+	height: 65px
 	-webkit-border-radius: 50%
 	-moz-border-radius: 50%
 	border-radius: 50%
@@ -236,11 +225,18 @@ a:hover, a:focus
 #footer
 	background-color: $dark
 	padding: 10px
-	
+
+#footer h6
+	color: $white
+
+#footer i
+	color: $white
+
 @media screen and (max-width: 568px)
 	#footer
 		padding-top: 350px
 
 #footer address
+	line-height: 24px
 	color: $lightBlue
 	font-size: 12px
