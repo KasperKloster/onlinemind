@@ -21,3 +21,4 @@ Route::get('tekstforfatning', 'PagesController@pageTekstforfatning')->name('teks
 Route::get('kontakt', 'PagesController@pageKontakt')->name('kontakt');
 Route::post('kontakt', 'PagesController@postContact');
 
+Route::post('newsletter', 'PagesController@postNewsletter');

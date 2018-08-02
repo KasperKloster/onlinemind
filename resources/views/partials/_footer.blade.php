@@ -2,11 +2,11 @@
       <footer id="footer">
         <div class="container">
           <div class="row justify-content-center text-center">
-            <div class="col-md-4">
+            <div class="col-md-2">
               <h6>OnlineMind</h6>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
               <h6>Kontakt</h6>
               <address>
               Email: <a href="mailto:kasper@onlinemind.dk">kasper@onlinemind.dk</a>
@@ -15,7 +15,7 @@
               </address>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
               <h6>Adresse</h6>
               <address>
                 Korsikavej 4. 1th<br/>
@@ -24,8 +24,65 @@
               </address>
             </div>
 
-          </div>
-        </div>
+            <div class="col-md-4">
+              <h6>Nyhedsbrev</h6>
+              <p>Skriv dig op til nyhedsbrevet</p>
+
+                <form action="{{ url('newsletter') }}" method="POST">
+                  <div class="input-group">
+                    <input type="text" class="form-control form-control-sm" name="newsletterName" placeholder="Navn" required>
+                    <input type="email" class="form-control form-control-sm" name="newsletterEmail" placeholder="E-mail" required>
+                    <div class="input-group-append">
+                    {{ csrf_field() }}
+                    <button type="submit" class="btn btn-cta">Tilmeld</button>
+                    </div>
+                  </div>
+                </form>
+                
+                <!-- Newsletter Subscribe Succes -->
+                @if (Session::has('success'))
+                  <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <h4 class="alert-heading">Din besked blev sendt!</h4>
+                    <hr/>
+                    <p>{{ Session::get('success') }}</p>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                @endif
+                
+                <!-- Newsletter Already subscribed error -->
+                @if (Session::has('error'))
+                  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <p>{{ Session::get('error') }}</p>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                @endif
+                
+                <!-- Newsletter Validation Errors -->
+                @if (count($errors) > 0)
+                <section class="main-content">
+                  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <h4 class="alert-heading">Du mangler at udfylde:</h4>
+                    <hr/>
+                    <ul>
+                    @foreach ($errors->all() as $error)
+                      <li>{{ $error }}</li>
+                    @endforeach
+                    </ul>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                </section>
+                @endif
+
+            </div>
+
+          </div> <!-- /.row -->
+        </div> <!-- /.container -->
       </footer>
 
       <!-- Optional JavaScript -->

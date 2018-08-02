@@ -194,8 +194,12 @@ a:hover, a:focus {
   background-color: #404041;
   padding: 10px; }
 
-#footer h6 {
+#footer h6, p {
   color: #fff; }
+
+#footer p {
+  line-height: 24px;
+  font-size: 12px; }
 
 #footer i {
   color: #fff; }
