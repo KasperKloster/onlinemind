@@ -5,7 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Mail;
 use Session;
+
 use Newsletter;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\URL;
 
 class PagesController extends Controller
 {
@@ -73,14 +76,14 @@ class PagesController extends Controller
         {
             // Else send conirm mail to user and subscribe to mailchimp Lists
             Newsletter::subscribePending($request->newsletterEmail, ['FNAME' => $request->newsletterName]);
-            Session::flash('success', 'Tak - Du er tilmeldt! Jeg har sendt dig en bekræftelsesmail.');
-            return redirect()->back();
+            Session::flash('newsletterSuccess', 'Tak - Du er tilmeldt! Jeg har sendt dig en bekræftelsesmail.');
+            return Redirect::to(URL::previous() . "#footer-newsletter-msg");
         } 
         // If already subscribed return this message
         else
         {
-            Session::flash('error', 'Tak, men du er allerede tilmeldt nyhedsbrevet.');
-            return redirect()->back();
+            Session::flash('newsletterError', 'Tak, men du er allerede tilmeldt nyhedsbrevet.');
+            return Redirect::to(URL::previous() . "#footer-newsletter-msg");
         }
 
     }

@@ -40,11 +40,11 @@
                 </form>
                 
                 <!-- Newsletter Subscribe Succes -->
-                @if (Session::has('success'))
-                  <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <h4 class="alert-heading">Din besked blev sendt!</h4>
+                @if (Session::has('newsletterSuccess'))
+                  <div class="alert alert-success alert-dismissible fade show" role="alert" id="footer-newsletter-msg">
+                    <h4 class="alert-heading">Du er nu tilmeldt</h4>
                     <hr/>
-                    <p>{{ Session::get('success') }}</p>
+                    <p>{{ Session::get('newsletterSuccess') }}</p>
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -52,9 +52,9 @@
                 @endif
                 
                 <!-- Newsletter Already subscribed error -->
-                @if (Session::has('error'))
-                  <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                    <p>{{ Session::get('error') }}</p>
+                @if (Session::has('newsletterError'))
+                  <div class="alert alert-warning alert-dismissible fade show" role="alert" id="footer-newsletter-msg">
+                    <p>{{ Session::get('newsletterError') }}</p>
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -63,8 +63,7 @@
                 
                 <!-- Newsletter Validation Errors -->
                 @if (count($errors) > 0)
-                <section class="main-content">
-                  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                  <div class="alert alert-danger alert-dismissible fade show" role="alert" id="footer-newsletter-msg">
                     <h4 class="alert-heading">Du mangler at udfylde:</h4>
                     <hr/>
                     <ul>
@@ -76,7 +75,6 @@
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                </section>
                 @endif
 
             </div>
