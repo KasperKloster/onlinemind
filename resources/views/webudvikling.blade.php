@@ -48,13 +48,13 @@
         <section class="d-flex justify-content-center row divider-section">
           <h4 class="text-center">Hvad jeg arbejder mest med</h4>
           <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://da.wikipedia.org/wiki/HTML5" target=_blank><i class="fab fa-html5 fa-3x"></i></a></li>
-            <li class="list-inline-item"><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><i class="fab fa-css3-alt fa-3x"></i></a></li>
-            <li class="list-inline-item"><a href="https://sass-lang.com" target="_blank"><i class="fab fa-sass fa-3x"></i></a></li>
-            <li class="list-inline-item"><a href="https://getbootstrap.com" target="_blank"><i class="fas fa-bold fa-3x"></i></a></li>
-            <li class="list-inline-item"><a href="https://laravel.com" target="_blank"><i class="fab fa-laravel fa-3x"></i></a></li>
-            <li class="list-inline-item"><a href="https://wordpress.com" target="_blank"><i class="fab fa-wordpress fa-3x"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.javascript.com" target="_blank"><i class="fab fa-js-square fa-3x"></i></a></li>
+            <li class="list-inline-item"><a href="https://da.wikipedia.org/wiki/HTML5" rel="nofollow" target=_blank><i class="fab fa-html5 fa-3x"></i></a></li>
+            <li class="list-inline-item"><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" rel="nofollow" target="_blank"><i class="fab fa-css3-alt fa-3x"></i></a></li>
+            <li class="list-inline-item"><a href="https://sass-lang.com" rel="nofollow" target="_blank"><i class="fab fa-sass fa-3x"></i></a></li>
+            <li class="list-inline-item"><a href="https://getbootstrap.com" rel="nofollow" target="_blank"><i class="fas fa-bold fa-3x"></i></a></li>
+            <li class="list-inline-item"><a href="https://laravel.com" rel="nofollow" target="_blank"><i class="fab fa-laravel fa-3x"></i></a></li>
+            <li class="list-inline-item"><a href="https://wordpress.com" rel="nofollow" target="_blank"><i class="fab fa-wordpress fa-3x"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.javascript.com" rel="nofollow" target="_blank"><i class="fab fa-js-square fa-3x"></i></a></li>
             <li class="list-inline-item"><a href="http://github.com/kasperkloster" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
           </ul>    
         </section>
