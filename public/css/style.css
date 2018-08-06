@@ -204,9 +204,6 @@ a:hover, a:focus {
 #footer i {
   color: #fff; }
 
-@media screen and (max-width: 568px) {
-  #footer {
-    padding-top: 350px; } }
 #footer address {
   line-height: 24px;
   color: #F2F7FF;
