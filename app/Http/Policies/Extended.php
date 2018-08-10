@@ -5,6 +5,8 @@ namespace App\Http\Policies;
 use Spatie\Csp\Directive;
 use Spatie\Csp\Policies\Basic;
 
+use Spatie\Csp\Value;
+
 // Use Spatie Spatie\Csp\Policies::Basic;
 class Extended extends Basic
 {
@@ -14,13 +16,14 @@ class Extended extends Basic
 
 		// Allow scripts from Bootstrap
         $this->addDirective(Directive::DEFAULT, 'https://maxcdn.bootstrapcdn.com');
+        $this->addDirective(Directive::SCRIPT, 'https://maxcdn.bootstrapcdn.com');
         $this->addDirective(Directive::STYLE, 'https://maxcdn.bootstrapcdn.com');
         $this->addDirective(Directive::FONT, 'https://maxcdn.bootstrapcdn.com');
 
         // Allow scripts from Google.com // Fonts, Tag Manager, Analytics
         $this->addDirective(Directive::DEFAULT, 'https://fonts.gstatic.com');
-        $this->addDirective(Directive::STYLE, 'https://fonts.googleapis.com/css');
-        $this->addDirective(Directive::SCRIPT, 'https://fonts.googleapis.com/css');
+        $this->addDirective(Directive::STYLE, 'https://fonts.googleapis.com');
+        $this->addDirective(Directive::SCRIPT, 'https://fonts.googleapis.com');
         $this->addDirective(Directive::FONT, 'https://fonts.gstatic.com');
         
         $this->addDirective(Directive::SCRIPT, '*.googletagmanager.com');
@@ -31,6 +34,7 @@ class Extended extends Basic
         $this->addDirective(Directive::SCRIPT, '*.google-analytics.com');
         $this->addDirective(Directive::STYLE, '*.google-analytics.com');
         $this->addDirective(Directive::IMG, '*.google-analytics.com');
+        $this->addDirective(Directive::CONNECT, '*.google-analytics.com');
 
         $this->addDirective(Directive::DEFAULT, '*.google-analytics.com/j/collect');
         $this->addDirective(Directive::SCRIPT, '*.google-analytics.com/j/collect');

@@ -15,7 +15,7 @@
 	<link defer rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Work+Sans:400,700">
 
 	<!-- Icons -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous" async>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous" async">
 
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ asset ('img/favicon/apple-touch-icon.png') }}">
