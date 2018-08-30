@@ -125,7 +125,7 @@
                 <h3>Webudvikling</h3>
                 <p class="text-left">
                 Mangler du en ny side? Eller skal have din nuværende opfrisket? <strong>Så kan jeg hjælpe dig!</strong><br/>
-                Jeg koder primært i PHP, og sagtens give dig en hånd, når det drejer sig om f.eks Laravel, WordPress eller andre populære systemer.
+                Jeg koder primært sider i PHP, og kan sagtens give dig en hånd, med din side som f.eks Laravel, Magento eller andre systemer.
                 </p>
                 <a href="{{ route('webudvikling') }}" class="btn btn-large btn-cta">Lær mere</a>
               </div> 

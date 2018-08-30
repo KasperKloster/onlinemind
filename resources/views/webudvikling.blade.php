@@ -38,11 +38,6 @@
         Derudover har Laravel et stort og hjælpsomt community.<br/>
         <i>Denne side er lavet med Laravel</i>
         <p>
-        <h3>Skal jeg vælge WordPress?</h3>
-        WordPress er det CMS som de fleste har hørt om og er i mange tilfælde også en fin løsning.<br/>
-        Med WordPress kan du lynhurtigt få en side op at køre<br/> Du behøver heller ikke være den vilde kodehaj for at varetage eller ændre på sin side.<br/>
-        WordPress har et kæmpe community, samt en masse temaer og plugins - Både gratis og betalte.<br/>
-        </p>
 
         <!-- Section Divider -->
         <section class="d-flex justify-content-center row divider-section">
@@ -53,7 +48,6 @@
             <li class="list-inline-item"><a href="https://sass-lang.com" rel="nofollow" target="_blank"><i class="fab fa-sass fa-3x"></i></a></li>
             <li class="list-inline-item"><a href="https://getbootstrap.com" rel="nofollow" target="_blank"><i class="fas fa-bold fa-3x"></i></a></li>
             <li class="list-inline-item"><a href="https://laravel.com" rel="nofollow" target="_blank"><i class="fab fa-laravel fa-3x"></i></a></li>
-            <li class="list-inline-item"><a href="https://wordpress.com" rel="nofollow" target="_blank"><i class="fab fa-wordpress fa-3x"></i></a></li>
             <li class="list-inline-item"><a href="https://www.javascript.com" rel="nofollow" target="_blank"><i class="fab fa-js-square fa-3x"></i></a></li>
             <li class="list-inline-item"><a href="http://github.com/kasperkloster" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
           </ul>    
