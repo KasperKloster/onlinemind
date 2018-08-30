@@ -40,7 +40,7 @@
         <p>
 
         <!-- Section Divider -->
-        <section class="d-flex justify-content-center row divider-section">
+{{--         <section class="d-flex justify-content-center row divider-section">
           <h4 class="text-center">Hvad jeg arbejder mest med</h4>
           <ul class="list-inline">
             <li class="list-inline-item"><a href="https://da.wikipedia.org/wiki/HTML5" rel="nofollow" target=_blank><i class="fab fa-html5 fa-3x"></i></a></li>
@@ -51,7 +51,7 @@
             <li class="list-inline-item"><a href="https://www.javascript.com" rel="nofollow" target="_blank"><i class="fab fa-js-square fa-3x"></i></a></li>
             <li class="list-inline-item"><a href="http://github.com/kasperkloster" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
           </ul>    
-        </section>
+        </section> --}}
 
         <h3>"Men knappen skal være til højre?"</h3>
         <p>
