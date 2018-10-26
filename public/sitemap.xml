@@ -21,6 +21,16 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://onlinemind.dk/laravel</loc>
+  <lastmod>2018-04-18T21:16:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlinemind.dk/magento</loc>
+  <lastmod>2018-04-18T21:16:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://onlinemind.dk/grafisk-design</loc>
   <lastmod>2018-04-18T21:16:57+00:00</lastmod>
   <priority>0.80</priority>
