@@ -15,6 +15,9 @@ Route::get('/', 'PagesController@pageFront')->name('front');
 
 Route::get('seo', 'PagesController@pageSEO')->name('seo');
 Route::get('webudvikling', 'PagesController@pageWebudvikling')->name('webudvikling');
+Route::get('laravel', 'PagesController@pageLaravelUdvikling')->name('laravel_udvikling');
+Route::get('magento', 'PagesController@pageMagentoUdvikling')->name('magento_udvikling');
+
 Route::get('grafisk-design', 'PagesController@pageGrafiskDesign')->name('grafisk_design');
 Route::get('tekstforfatning', 'PagesController@pageTekstforfatning')->name('tekstforfatning');
 

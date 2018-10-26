@@ -24,6 +24,14 @@ class PagesController extends Controller
     	return view('webudvikling');
     }
 
+    public function pageLaravelUdvikling(){
+        return view('laravel_udvikling');
+    }
+    
+    public function pageMagentoUdvikling(){
+        return view('magento_udvikling');
+    }
+
     public function pageGrafiskDesign(){
     	return view('grafisk_design');
     }

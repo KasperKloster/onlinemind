@@ -49,7 +49,6 @@ a:hover, a:focus
 	height: 30px
 	display: inline-block
 	text-align: center
-/**/
 
 /* The Overlay (background) */
 .overlay 
@@ -70,7 +69,7 @@ a:hover, a:focus
 	margin-top: 100px
 
 /* The navigation links inside the overlay */
-.overlay a
+.overlay a, a:not([href]):not([tabindex])
 	padding: 8px
 	text-decoration: none
 	font-size: 35px
@@ -86,7 +85,7 @@ a:hover, a:focus
 		transform: scaleY(0)
 
 
-.nav-item:hover, .nav-item:focus
+.nav-item:hover, .nav-item:focus, #nav-dropdown a:not([href]):hover, #nav-dropdown a:not([href]):focus
 	font-size: 45px
 	color: $dark
 	background-color: $lightBlue
@@ -95,11 +94,27 @@ a:hover, a:focus
 	cursor: pointer
 	width: 100%
 
+/* Dropdown */
+
+/* Overlay Icons */	
+.overlay a span
+	font-size: 0.7em
+
+#dropdown
+	color: $white
+
+#nav-dropdown-items
+	display: none
+	margin-bottom: 25px
+
+#nav-dropdown-items .nav-item
+	font-size: 2em
+
 /* Position the close button */
 .overlay #closebtn
 	float: right
 	margin-top: 20px
-	font-size: 16px
+	font-size: 16px!important
 	color: $white
 	cursor: pointer
 

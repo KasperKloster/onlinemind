@@ -21,7 +21,7 @@ $(document).ready(function() {
   		$('#main-nav').css("width", "0%");
   	});
 
-  	// Menu Button click
+  	// Menu Items click
   	$('.overlay .nav-item').on('click', function(e){
   		// Prevent Default (Do not go to page)
   		e.preventDefault();
@@ -38,4 +38,13 @@ $(document).ready(function() {
   			window.location.href = link;
   		}, 800);
   	});
+    
+
+    // Show/Hide Dropdown
+    $( "#nav-dropdown" ).click(function(e) {
+  $( "#nav-dropdown-items" ).toggle( "slow", function() {
+    e.preventDefault();
+  });
+});
+
 });

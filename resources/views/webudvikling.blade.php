@@ -1,7 +1,7 @@
 @extends('layouts.landingpage')
 
 @section('meta')
-  <title>OnlineMind | Webudvikling - Ny side med Laravel?</title>
+  <title>OnlineMind | Webudvikling - Jeg udvikler din side</title>
   <meta name="description" content="Webudvikling primært i Laravel og WordPress. Jeg skriver ren kode, med Google, Bruger, Sikkerhed & Hastighed i tankerne. PHP, JavaScript, HTML/CSS mm.">
   <meta name="robots" content="index, follow">
 @endsection
@@ -29,14 +29,16 @@
 
       @section('land_content')
       <!-- Landing Content -->
-        <h3>Fordele ved Laravel</h3>
+        <h2>Programmering, Design og Hosting</h2>
         <p>
-        Når jeg koder en side fra bunden, er mit fortrukne system Laravel.<br/>
-        Laravel er et forholdsvist nyt PHP MVC framework.<br/> Et framework er skelet, så man kan få sin side op at køre hurtigere end hvis du skriver koden helt fra bunden. Hertil er meget af sikkerheden allerede taget hånd om.<br/>
-        Med en side der er kodet vha. et MVC, har du kontrol over alt og kan lave en løsning, der passer præcist til ens behov.<br/>
-        Jeg går højt op op i struktureret og sikker kode<br/>
-        Derudover har Laravel et stort og hjælpsomt community.<br/>
-        <i>Denne side er lavet med Laravel</i>
+        Jeg går op i min kode og skriver den så ren og optimalt som muligt. Så skal dit system kun tænke på de tegn, som den rent faktisk skal bruge og ikke en masse "rod".
+        Mine sider er sikre, funktionelle, hurtige, samtidig med at Google kan lide mig.<br/>
+        Skal du bruge en webshops, så vil jeg rådgive dig til at bruge <a href="{{ route('magento_udvikling') }}">Magento</a>. Alle andre sider, der fortækker jeg <a href="{{ route('laravel_udvikling') }}">Laravel</a>.
+        <br/>
+        
+        I samarbejde finder vi et design, jeg programmer, og opsætter både side samt server og hvad du ellers måtte bruge - Du skal bare fortælle mig, hvad du ønsker.
+        <br/><br/> 
+        <i>Denne side er iøvrigt lavet med Laravel</i>
         <p>
 
         <!-- Section Divider -->
@@ -56,7 +58,7 @@
         <h3>"Men knappen skal være til højre?"</h3>
         <p>
         Hvis du mangler noget fast support eller har nogle smårettelser til din nuværende side, som at tilføje en ny underside, skift farven på en knap, tilføje en kontaktformular.<br/>
-        <strong>Så hjælper jeg dig</strong> Hvis du har interesse i det, så viser jeg dig også gerne hvordan, så du selv kan gøre det i fremtiden.
+        <strong>Så hjælper jeg dig</strong> Hvis du har interesse i det, så viser jeg dig også gerne hvordan, så du selv kan gøre det i fremtiden.<br/> Her betyder hvad din side er lavet i ikke så meget.
         </p>
         <h4>Hvad koster det?</h4>
         <p>

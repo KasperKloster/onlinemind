@@ -10,13 +10,22 @@
 
         <div class="overlay-content">
           <nav>
+            <!-- Dropdown -->
+            <div id="nav-dropdown"><a>Webudvikling<span>&#9660;</span></a></div>
+              <div id="nav-dropdown-items">
+                <a class="nav-item" href="{{ route('webudvikling') }}">Kode, Design & Hosting</a>
+                <a class="nav-item" href="{{ route('laravel_udvikling') }}">Larvel</a>
+                <a class="nav-item" href="{{ route('magento_udvikling') }}">Magento</a>
+                <hr/>
+              </div>
+
             <a class="nav-item" href="{{ route('seo') }}">SEO</a>
-            <a class="nav-item" href="{{ route('webudvikling') }}">Webudvikling</a>
             <a class="nav-item" href="{{ route('grafisk_design') }}">Grafisk Design</a>
             <a class="nav-item" href="{{ route('tekstforfatning') }}">Tekstforfatning</a>
             <a class="nav-item" href="{{ route('kontakt') }}">Om OnlineMind &amp; Kontakt</a>
           </nav>
         </div>
+
       </div>
 
       <!-- Menu -->
